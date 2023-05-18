@@ -1,3 +1,7 @@
+body, html {
+  height: 100%;
+}
+
 h1 {
   font-family: "teko", sans-serif;
   font-weight: 500;
@@ -6,3 +10,15 @@ h1 {
 .header-div {
   background-color: #F2F2F2;
 }
+
+.footer-container {
+    background-color: #F2F2F2;
+}
+
+ .hero-image {
+    height: auto;
+    width: 100%;
+    background: url("/assets/images/pexels-leon-ardho-1552242.jpg") no-repeat center center;
+ }  
+
+ 
