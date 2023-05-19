@@ -7,6 +7,21 @@ h1 {
   font-weight: 500;
 }
 
+h2 {
+  font-family: "teko", sans-serif;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: "teko", sans-serif;
+  font-weight: 300;
+}
+
+h4 {
+  font-family: "teko", sans-serif;
+  font-weight: 300;
+}
+
 .header-div {
   background-color: #F2F2F2;
 }
@@ -26,8 +41,41 @@ h1 {
     height: 200px;
     padding-top: 40px;
     padding-left: 10px;
-    background-color: rgba(241, 109, 10, .7);
+    background-color:#ED6B47;
     bottom: 30px;
     right: 150px;
     position: absolute;
+ }
+
+ .reasons-container {
+    background-color: #ED6B47;
+    width: 100%;
+ }
+ 
+ .homepage-section-heading {
+    margin-top: 10px;
+
+ }
+
+ .reasons-columns {
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 350px;
+ }
+
+ ul {
+    font-family: roboto; sans-serif
+ }
+
+ .button-center {
+    text-align: center;
+    font-family: "teko", sans-serif;
+    font-weight: 500;
+ }
+
+ .btn-info {
+    width: 300px;
+    height: 80px;
+    font-size: 24px;
  }
