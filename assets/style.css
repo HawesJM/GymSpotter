@@ -12,6 +12,11 @@ h2 {
   font-weight: 300;
 }
 
+nav a {
+  font-family: "teko", sans-serif;
+  font-weight: 500;
+}
+
 h3 {
   font-family: "teko", sans-serif;
   font-weight: 300;
@@ -28,6 +33,7 @@ h4 {
 
 .footer-container {
     background-color: #F2F2F2;
+    margin-top: 0;
 }
 
  .hero-image {
@@ -38,13 +44,19 @@ h4 {
 
  .cover-intro {
     width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color:#ED6B47;
+    height: 300px;
     bottom: 30px;
     right: 150px;
     position: absolute;
+    background-color: rgba(237, 107, 71, 0.7);
+    border-radius: 50%;
+    text-align: center;
+ }
+
+ .cover-intro {
+    display: grid;
+    place-items: center;
+    text-transform: uppercase;
  }
 
  .reasons-container {
@@ -54,18 +66,20 @@ h4 {
  
  .homepage-section-heading {
     margin-top: 10px;
-
  }
 
  .reasons-columns {
     margin-top: 50px;
     margin-left: 5px;
     margin-right: 5px;
-    height: 350px;
+ }
+
+ .three-reasons-icon {
+    font-size: 36px;
  }
 
  ul {
-    font-family: roboto; sans-serif
+    font-family: "roboto", sans-serif;
  }
 
  .button-center {
@@ -73,9 +87,17 @@ h4 {
     font-family: "teko", sans-serif;
     font-weight: 500;
  }
-
- .btn-info {
+ 
+ .btn {
     width: 300px;
     height: 80px;
     font-size: 24px;
+    background-color: #43464b;
+    color: #ED6B47;
+    margin-bottom: 10px;
+ }
+
+ .btn:hover {
+    background-color:#ED6B47;
+    color: white;
  }
