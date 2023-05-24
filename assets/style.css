@@ -84,7 +84,7 @@ h4 {
  }
 
  ul {
-    font-family: "roboto", sans-serif;
+    font-family: "teko", sans-serif;
  }
 
  .button-center {
@@ -93,7 +93,7 @@ h4 {
     font-weight: 500;
  }
  
- .btn {
+ .btn-info {
     width: 300px;
     height: 80px;
     font-size: 24px;
@@ -127,7 +127,7 @@ h4 {
 }
  
 .navbar {
-    background-color: #F2F2F2
+    background-color: #F2F2F2;
 }
 
 .navbar-brand {
@@ -142,6 +142,16 @@ h4 {
 #spacerbox {
     width: 150px;
 
+}
+
+.social-footer {
+    background-color: #F2F2F2;
+    font-family: "teko", sans-serif;
+    font-weight: 300;
+}
+
+.copy-div {
+    background-color: #F2F2F2;
 }
 
 @media (max-width: 1000px) {
