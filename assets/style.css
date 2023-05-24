@@ -36,6 +36,10 @@ h4 {
     margin-top: 0;
 }
 
+.hero-outer {
+    position: relative;
+}
+
  .hero-image {
     height: auto;
     width: 100%;
@@ -46,17 +50,18 @@ h4 {
     width: 300px;
     height: 300px;
     bottom: 30px;
-    right: 150px;
+    right: 30px;
     position: absolute;
     background-color: rgba(237, 107, 71, 0.7);
     border-radius: 50%;
     text-align: center;
- }
-
- .cover-intro {
     display: grid;
     place-items: center;
     text-transform: uppercase;
+ }
+
+ .cover-intro-header {  
+    font-weight: 500;
  }
 
  .reasons-container {
@@ -71,7 +76,7 @@ h4 {
  .reasons-columns {
     margin-top: 50px;
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 0px;
  }
 
  .three-reasons-icon {
@@ -94,6 +99,7 @@ h4 {
     font-size: 24px;
     background-color: #43464b;
     color: #ED6B47;
+    margin-top: 20px;
     margin-bottom: 10px;
  }
 
@@ -101,3 +107,45 @@ h4 {
     background-color:#ED6B47;
     color: white;
  }
+
+.container-fluid {
+    width: 100%;
+}
+
+.navbar-collapse {
+    justify-content: right;
+    padding-left: 0px;
+}
+
+.title-text {
+    text-align: center;
+    width: 80%;
+    font-family: "teko", sans-serif;
+    font-weight: 500;
+    font-size:36px;
+
+}
+ 
+.navbar {
+    background-color: #F2F2F2
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.navbar-brand img {
+    width: 150px;
+    height: 150px;
+}
+
+#spacerbox {
+    width: 150px;
+
+}
+
+@media (max-width: 1000px) {
+    .cover-intro {
+        display: none;
+    }
+    }

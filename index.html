@@ -17,26 +17,44 @@
 
 <body>
   <header>
-    <nav class="navbar bg-body-tertiary">
-      <div class="container-fluid header-div">
-        <a class="navbar-brand" href="#">
-          <img src="/assets/images/gym spotter logo.jpg" alt="Logo" class="d-inline-block align-text-left">
+    <nav class="navbar navbar-expand-sm navbar-light container-fluid flex-column"> 
+   <div class="d-flex flex-column flex-md-row container-fluid justify-content-between align-items-center">
+        <a class="navbar-brand navbar-logo" href="#">
+            <img src="assets/images/gym spotter logo.jpg" alt="Logo">
         </a>
-        <h1>Be supported, stay motivated, and maximise your workouts</h1>
-        <a href="#">Home</a>
-        <a href="#">Plans and Goals</a>
-        <a href="#">Contact and Resources</a>
-      </div>
-    </nav>
+        <div class="title-text">Be supported, stay motivated, and maximise your workouts</div>
+        <div id="spacerbox"></div>
+    </div>
+  <button class="navbar-toggler align-self-start" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" a
+    ria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Plans and Goals</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">External Resources</a>
+      </li>
+    </ul>
+  </div>
+</nav>
   </header>
   <main>
-    <section> 
+    <section class="hero-outer"> 
         <div>
             <img src="assets/images/pexels-anastasia-shuraeva-4944957.jpg" class="hero-image">
         </div>
         <div class="cover-intro">  
             <h2 class="cover-intro-header">Boost your training</h2>
-            <h2 class="cover-intro-header">Focus. Plan. Level Up</h2>
+            <h2 class="cover-intro-header">Focus. Plan. Level Up.</h2>
         </div>        
     </section>
     <section>
@@ -111,24 +129,19 @@
 
   <footer>
     <div class="container-fluid footer-container">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-0 border-top">
+    <footer class="d-flex flex-wrap py-3 my-0 border-top">
     <p class="col-md-4 mb-0 text-muted">© Gym Spotter</p>
-
-    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-      <img src="assets/images/gym spotter logo.jpg">
-    </a>
-
-    <ul class="nav col-md-4 justify-content-end"> Sitemap
+     <ul class="nav col-md-4 footer-list text-center">
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
     </ul>
-  </footer>
-</div>
-
-  </footer>
+     <a href="/" class="pull-right">
+        <img src="assets/images/gym spotter logo.jpg">
+    </a>    
+    </div>
+    </footer>
 </body>
 
 </html>
