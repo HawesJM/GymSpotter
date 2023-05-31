@@ -199,6 +199,12 @@ h4 {
     }
 }
 
+@media (min-width: 1200px) {
+    .reasons-columns {
+        margin-left: 120px;
+    }
+}
+
 @media (min-width: 1600px) {
     .reasons-columns {
         margin-left: 125px;
