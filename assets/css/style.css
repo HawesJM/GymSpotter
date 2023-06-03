@@ -168,6 +168,32 @@ h4 {
     background-color: #F2F2F2;
 }
 
+.row {
+    margin-left: 0;
+}
+
+.body-types {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.ecto {
+    font-size: 200px;
+    color: #ED6B47;
+}
+
+.meso {
+    transform: rotate(90deg);
+    font-size: 200px;
+    color: #ED6B47;
+    text-align: center;
+    }
+
+.endo {
+    font-size: 200px;
+    color: #ED6B47;
+}
+
 @media (max-width: 1000px) {
     .cover-intro {
         display: none;
