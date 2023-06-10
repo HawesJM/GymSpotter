@@ -168,13 +168,18 @@ h4 {
     background-color: #F2F2F2;
 }
 
-.row {
+.row-archetypes {
     margin-left: 0;
+    padding-right: 0;
 }
 
 .body-types {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 25px;  
+}
+
+.shapes {
+    margin-left: 0;
 }
 
 .ecto {
@@ -194,8 +199,30 @@ h4 {
     color: #ED6B47;
 }
 
+.body-type-images {
+    text-align: center;
+}
+
+.ecto-image {
+    width: 400px;
+    height: 400px
+}
+
+.meso-image {
+    width: 400px;
+    height: 400px;
+}
+
+.endo-image {
+    width: 400px;
+    height: 400px
+}
+
 @media (max-width: 1000px) {
     .cover-intro {
+        display: none;
+    }
+    .body-types {
         display: none;
     }
     }
@@ -236,3 +263,4 @@ h4 {
         margin-left: 125px;
     }
 }
+
