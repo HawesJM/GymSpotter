@@ -176,7 +176,7 @@ h4 {
     position: fixed;
     animation: fadeIn 3s;
     animation-fill-mode: forwards;
-    animation-delay: 2s;
+    animation-delay: 60s;
     animation-iteration-count: 10;
     animation-direction: alternate;
     opacity: 0;
@@ -205,9 +205,16 @@ h4 {
     padding-right: 0;
 }
 
+.p2-section-1 {
+    background-color: rgba(67, 70, 75);
+    text-align: center;
+}
+
 .row-archetypes p {
+    background-color: rgba(67, 70, 75);
     color: #fafafa;
 }
+
 .body-types {
     padding-left: 0;
     padding-right: 0;
@@ -255,6 +262,9 @@ strong {
 
 .body-type-images {
     text-align: center;
+    background-color: rgba(67, 70, 75);
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .ecto-image {
@@ -282,13 +292,19 @@ strong {
 }
 
 .body-type-plans {
-    margin-top: 50px;
+    margin-top: 0px;
+    margin-right: 0;
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgba(67, 70, 75);
 }
+
 
 .type-description {
     font-family: "teko", sans-serif;
     font-weight: 300;
     font-size: 24px;
+    color: #fafafa;
 }
 
 #ecto-action {
@@ -312,15 +328,129 @@ strong {
     color: #ED6B47;
 }
 
-@media (max-width: 1000px) {
+.planner-med {
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+.planner-med-header:hover {
+    text-decoration: underline;
+}
+
+.plan-table-small {
+    font-family: "teko", sans-serif;
+    font-weight: 300;
+}
+
+.plan-table-med {
+    text-align: center;
+    font-family: "teko", sans-serif;
+    font-weight: 500;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-med {
+    margin-top: 25px;
+}
+
+.table-large-play {
+    transform: rotate(90deg);
+}
+
+.mobile-steps {
+    font-family: "teko", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #ED6B47;
+    background-color: rgba(67, 70, 75); 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.planner-small {
+    text-align: center;
+    background-color: #F2F2F2;
+}
+
+.planner-small h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.planner-small:hover{
+    text-decoration: underline;
+}
+
+tr {
+    text-align: center;
+    margin-left: 5px;
+    padding: 0px;
+}
+
+.plan-icon {
+    color: #ED6B47;
+}
+
+.plan-icon-meso {
+    transform: rotate(90deg);
+}
+
+.med-img {
+    max-height: 200px;
+    max-width: 181px;
+}
+
+.img-cardio {
+    height: 200px;
+    width: 181px;   
+}
+
+.img-weights {
+    height: 200px;
+    width: 181px;   
+}
+
+.body-type-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.archetypes-intro {
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-family: "teko", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+}
+
+.spinner-border {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 150px;
+    animation-duration: 5s;
+    color: #ED6B47;
+    margin-bottom: 5px;
+}
+
+.spinner-text {
+    color: #ED6B47;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
     .cover-intro {
         display: none;
     }
-    .body-types {
-        display: none;
-    }
-    }
-
+}
+ 
 @media (max-width: 600px) {
     .about-container {
         font-size: 24px;
@@ -355,6 +485,22 @@ strong {
 @media (min-width: 1600px) {
     .reasons-columns {
         margin-left: 125px;
+    }
+
+@media (max-width: 360px) {   
+    .mobile-steps{
+        font-size: 18px;
+    }
+
+@media (max-width: 360px) {  
+    .plan-table-small {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 360px) {  
+    .title-text {
+        font-size: 18px;
     }
 }
 

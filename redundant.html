@@ -13,13 +13,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <title>Gym Spotter</title>
+
 </head>
-<body>
-  <header>
-    <nav class="navbar navbar-expand-sm navbar-light container-fluid flex-column"> 
+    <body>
+    <header>
+   <nav class="navbar navbar-expand-sm navbar-light container-fluid flex-column"> 
    <div class="d-flex flex-column flex-md-row container-fluid justify-content-between align-items-center">
         <a class="navbar-brand navbar-logo" href="#">
-            <img src="assets/images/gym spotter logo.jpg" alt="Logo">
+            <img src="/assets/images/gym spotter logo.jpg" alt="Logo">
         </a>
         <div class="title-text">Be supported, stay motivated, and maximise your workouts</div>
         <div id="spacerbox"></div>
@@ -33,36 +34,39 @@
       <li class="nav-item">
         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="plansandgoals.html">Plans and Goals</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="contact.html">Contact</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="externalresources.html ">External Resources</a>
+      <li class="nav-item">
+        <a class="nav-link" href="externalresources.html">External Resources</a>
       </li>
     </ul>
   </div>
 </nav>
-  </header>
-
-  <section>
-    <div class="p2-section-1">
-        <div class="d-md-none mobile-header-plan">
-            <ol class="mobile-steps">
+    </header>
+    <main>
+        <section class="mobile-header-plan">
+                <ol class="mobile-steps">
                     <li>Know your body type</li>
                     <li>Plan your workouts and diet accordingly</li>
                     <li>Stay motivated, stay committed </li>
                 </ol>
-        </div>
-        <div class="d-none d-md-block row row-archetypes">
-            <div class="row">
-            <div class="d-none d-md-block col-lg-12"><p class="type-text">Everyone is different, but broadly speaking research has suggested three main body types that can correspond best to your individual physique. A basic understanding of these is helpful to tailor your workout plan to your strengths, in order to most effectively achieve your desired exercise goals. Moreover studies have suggested that certain characteristics of these <strong>body archetypes</strong> are particularly suited to success in specific sports. Taking these into account can further help you maximise the effectiveness of your training. However it’s important to note that these should be used as a general guide only, as we all have different strengths and weaknesses along with potential that can’t always be easily categorised into these broad divisions.</p></div>
-            </div>  
-
-        <div class="d-none d-md-block">
-            <div class="row shapes">
+            <div>    
+        </section>
+        <section>   
+            <div class="container-fluid body-types">
+                <div class="container-fluid ticker">
+                    <p class="ticker-text"> Pro tip - don't forget to stay hydrated at all times!
+                     </p>
+                </div>
+                <div class="row row-archetypes">
+                    <div class="row">
+                    <div class="col-12"><p class="type-text">Everyone is different, but broadly speaking research has suggested three main body types that can correspond best to your individual physique. A basic understanding of these is helpful to tailor your workout plan to your strengths, in order to most effectively achieve your desired exercise goals. Moreover studies have suggested that certain characteristics of these <strong>body archetypes</strong> are particularly suited to success in specific sports. Taking these into account can further help you maximise the effectiveness of your training. However it’s important to note that these should be used as a general guide only, as we all have different strengths and weaknesses along with potential that can’t always be easily categorised into these broad divisions.</p></div>
+                
+                    <div class="row shapes">
                     <div class="col-4">
                         <div class="ecto">
                            <i class="fa-solid fa-grip-lines-vertical"></i>
@@ -78,51 +82,54 @@
                             <i class="fa-regular fa-square"></i>
                         </div>
                     </div> 
-  </section>
-  <section class="p2-section-two">
-   <div class="d-none d-xl-block"> 
-    <div class="row body-type-images">
+                <div class="row body-type-images">
                     <div class="col-lg-4"><img src=assets/images/pexels-julia-larson-6455840.jpg class="ecto-image"></div> 
                     <div class="col-lg-4"><img src=assets/images/pexels-ivan-samkov-4164849.jpg class="meso-image"></div>
                     <div class="col-lg-4"><img src=assets/images/pexels-andres-ayrton-6551070.jpg class="endo-image"></div>                    
-                </div> 
-            </div>
-            <div class="d-none d-xl-block">
+                </div>
+                  
+        <div class="d-none d-xl-block">   
             <div class="row body-type-plans">
-                    <div class="col-lg-4"><p class="type-description">Naturally thin<br>
+                    <div class="col-4"><p class="type-description">Naturally thin<br>
                     Low body fat<br>
                     Difficulty gaining weight/muscle</p>
                     <p id="ecto-action">Low reps heavy weights with long rest periods<br>
                     Low intensity occasional cardio<br>
                     Balanced diet, high protein intake
                     </p></div>
-                    <div class="col-lg-4"><p class="type-description">Broader shoulders<br>
+                    <div class="col-4"><p class="type-description">Broader shoulders<br>
                     Medium to low body fat<br>
                     Easily gains muscle/loses fat</p>
                     <p id="meso-action">Medium-high intensity varied weight training<br>
                     Isolation exercises and medium cardio<br>
                     Balanced diet, meal plans for specific goals
                     </p></div>
-                    <div class="col-lg-4"><p class="type-description">Narrow shoulders, wider hips<br>
+                    <div class="col-4"><p class="type-description">Narrow shoulders, wider hips<br>
                     Stores more fat throughout<br>
                     Gains weight easier</p>
                     <p id="endo-action">Total body workouts for calorie burn<br>
                     Regular low impact cardio<br>
                     Low resistance high rep weight training
                     </p></div>
-                </div>    
-            </div>
+            </div>    
+        </div>    
         </section>
-        <section class="p2-section-three">
-            <div class="d-xl-none planner-small">
+        <section>
+            <div class="planner-med">
+                <h2 class="planner-med-header">
+                    Weekly Workout Planner
+                </h2>
+            </div>
+
+            <div class="planner-small">
                 <h2 class="planner-small-header">
                     Weekly Workout Planner
                 </h2>
-                <img src=assets/images/pexels-mikhail-nilov-6740173.jpg class="d-xl-none img-fluid plan-board">
+                <img src=assets/images/pexels-photo-6740173.jpeg class="img-fluid plan-board">
                 </img>
             </div>
             <div>
-            <table class="d-lg-none table plan-table-small">
+            <table class="table plan-table-small">
                 <thead>
                     <tr>
                         <th scope="col-3">Body Type</th>
@@ -152,8 +159,7 @@
                     </tr>     
                 </tbody>          
             </table>
-            <div class="d-none d-lg-block plan-table-med">
-            <table class="table">
+                <table class="table plan-table-med">
                     <thead>
                         <tr>
                             <th scope="col">Body Type</th>
@@ -166,52 +172,41 @@
                             <th scope="col">Sunday</th>
                         </tr>
                     </thead>
-                    <div class="d-none d-lg-flex justify-content-center flex-column align-items-center">
-                        <div class="row">
-                        <div class="spinner-border" role="status">
-                        <span class="sr-only">Building your workout plan</span>
-                        </div>
-                        </div>
-                        <div class="row">
-                            <p class="spinner-text">Building your workout plan</p>
-                        </div>    
-                    </div>
-                    <hr>
                     <tbody>
                         <tr>
                             <td scope="row"><i class="fa-solid fa-grip-lines-vertical"></i></th>
-                            <td scope="col">Chest focused weight training</td>
-                            <td scope="col">Rest</td>
-                            <td scope="col">Back focused weight training</td>
-                            <td scope="col">Rest</td>
-                            <td scope="col">Seated rowing</td>
-                            <td scope="col">Rest</td>
-                            <td scope="col">Leg and arm focused weight training</td>
+                            <td scope="col"></td>
+                            <td scope="col"></td>
+                            <td scope="col"></td>
+                            <td scope="col"></td>
+                            <td scope="col" ></td>
+                            <td scope="col"></td>
+                            <td scope="col"></td>
                         </tr>
                         <tr>
                             <td scope="row"><i class="fa-solid fa-play table-large-play"></i></th>
-                            <td scope="col">Chest and arms weight training</td>
-                            <td scope="col">Rest</td>
-                            <td scope="col">Light rowing and running</td>
-                            <td scope="col">Chest and back weight training</td>
-                            <td scope="col">Rest</td>
-                            <td scope="col">Light running with sit-ups</td>
-                            <td scope="col">Chest and arms weight training</td>
+                            <td scope="col"></td>
+                            <td scope="col"></td>
+                            <td scope="col"></td>
+                            <td scope="col"></td>
+                            <td scope="col" ></td>
+                            <td scope="col"></td>
+                            <td scope="col"></td>
                         <tr>
                             <td scope="row"><i class="fa-regular fa-square"></i></th>
-                            <td scope="col">Seated rowing, leg curls</td>
-                            <td scope="col">Rest</td>
-                            <td scope="col">Running, arm focused weight training</td>
-                            <td scope="col">Seated rowing</td>
-                            <td scope="col">Rest</td>
-                            <td scope="col">Seated rowing</td>
-                            <td scope="col">Light running</td>
+                            <td scope="col"></td>
+                            <td scope="col"></td>
+                            <td scope="col"></td>
+                            <td scope="col"></td>
+                            <td scope="col" ></td>
+                            <td scope="col"></td>
+                            <td scope="col"></td>
                         </tr>
                     </tbody>
                 </table>
-            </div>    
         </section>
-  <footer>
+        </main>
+    <footer>
         <div class="text-center text-white social-footer">
             <div class="container pt-3">
                 <section class="mb-3">
@@ -246,11 +241,10 @@
     <a class="text-dark" href="index.html">Gym Spotter</a>
   </div>
   
-<div class="footer-logo">
-    <a class="navbar-brand navbar-logo" href="#">
+    <div class="footer-logo">
+        <a class="navbar-brand navbar-logo" href="#">
             <img src="/assets/images/gym spotter logo.jpg" alt="Logo">
         </a>
-</div>
-</footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js" integrity="sha512-3dZ9wIrMMij8rOH7X3kLfXAzwtcHpuYpEgQg1OA4QAob1e81H8ntUQmQm3pBudqIoySO5j0tHN4ENzA6+n2r4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</body>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js" integrity="sha512-3dZ9wIrMMij8rOH7X3kLfXAzwtcHpuYpEgQg1OA4QAob1e81H8ntUQmQm3pBudqIoySO5j0tHN4ENzA6+n2r4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </footer>
