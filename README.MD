@@ -18,3 +18,50 @@ For fist time visitors I imagined the user first of all wanting to know the best
 All Pages will contain a Navigation menu at the top of the Webpage that directs them to a new Page to easily allow users to Navigate the site easily. The Nav Menu will be collapsable on a Mobile device to make use of space on smaller devices. The homepage will give a brief introduction to the purpose of the site itself. "Plans and Goals" will provide users with the basic information to get started. "Contact and Social" will help users to stay on track through positive engagement and accountability. "External Resources" will provide paths for users to enhance and develop their workout plans and lifestyle according to the principles introduced in previous sections.
 
 Across all devices and screen sizes the layout will remain clean and the flow of information will progress logically, enhanced at certain points by CTAs. All pages will contain a footer with social media contact links for further engagement. Certain elements on each page will respond interactively to help usersmove through the information flow of the site.
+
+### Design
+##### Colour Scheme
+The main background colour is Grey [alt text] (https://place-hold.it/25x25/#F2F2F), with a darker shade for certain areas of focus or calls to action. This aims to echo the industrial colour scheme popular with a lot of urban gyms. The main accent colour is Orange which provides excellent contrast and elevates the Grey tones with an energetic, modern feel. Occasionally a light Blue is used to further this.
+##### Typography
+The main font used is Teko to enhance the modern industrial feel of the website with provision for using Roboto when this is necessary for further clarity.
+##### Imagery
+The Gym Spotter logo is displayed in the header and footer of all pages, and on all devices and screensizes. The exact placement, positioning and sizing of the logo will change depending on the screen size. The website also displays images for general motivation or to help clarify specific sections of information.
+##### Wireframes
+
+### Limitations
+Due to no JavaScript functionality, apart from Bootstraps(JS/JQuery) there is no contact form that will store data or send email requests. Also for this reason the intended individual workout plans cannot be created, and the spinner on "Plans and Goals" continues to run indefinitely.
+
+### Features
+##### Existing Features
+- CTA button on home page
+##### To Be Added
+- Member login area and forum
+- 
+### Technologies
+- **HTML**
+This project uses HTML as the main language used to complete the structure of the Website.
+- **CSS**
+This project uses custom written CSS to style the Website.
+- **Bootstrap**
+The Bootstrap framework is used throughout this website for layouts and styling.
+This has also been used to import JavaScript/Query where necessary
+- **Font Awesome**
+Font awesome Icons are used in the Body of the site and for the Social media links contained in the Footer section of the website.
+- **Google Fonts**
+Google fonts are used throughout the project to import the Teko and Roboto fonts
+- **Code Anywhere**
+The IDE for writing the code
+- **GitHub**
+GithHub is the hosting site used to store the source code for the Website and Git Pages is used for the deployment of the live site.
+- **Google Chrome Developer Tools**
+Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
+- **Balsamiq Wireframes**
+This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
+ - **place-hold.it**
+place-hold.it was used to display the colours shown in the Color Scheme section.
+
+### Testing
+
+### Deployment
+
+
