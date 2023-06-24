@@ -172,6 +172,10 @@ h4 {
     background-color: #F2F2F2;
 }
 
+.foundation-icon {
+    color: #ED6B47;
+    font-size: 200px;
+}
 
 .ticker {
     margin-left: 0;
@@ -435,21 +439,149 @@ tr {
     text-align: center;
 }
 
-.spinner-border {
+.foundation-icon-div {
     margin-top: 25px;
-    margin-bottom: 50px;
-    width: 150px;
-    height: 150px;
-    animation-duration: 5s;
-    color: #ED6B47;
-    margin-bottom: 5px;
 }
 
-.spinner-text {
+.foundation-icon {
+    color: rgba(67, 70, 75);
+}
+
+.foundation-icon-text{
     color: #ED6B47;
     font-size: 24px;
     text-transform: uppercase;
 }
+
+.social-intro {
+    padding-top: 25px;
+    text-align: center;
+    background-color: rgba(67, 70, 75);
+}
+
+.social-intro h2 {
+    text-transform: uppercase;
+    color: #ED6B47;
+    text-decoration: underline; 
+}
+
+.mobile-social {
+    padding-top: 15px;
+    background-color: rgba(67, 70, 75);
+    text-align: center;
+    color: #fafafa;
+}
+
+.mobile-social h2 {
+
+    text-decoration: underline;
+    color: #ED6B47;
+}
+
+.mobile-social p {
+    color: #fafafa;
+    font-family: teko;
+    
+}
+
+.social-intro p {
+    color: #fafafa;
+    font-family: teko, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 0;
+    padding-bottom: 25px;
+}
+
+.form-small {
+    font-family: teko, sans-serif;
+    font-weight: 300;
+    background-color: #ED6B47;
+    border-style: solid;
+    border-color: rgba(125, 249, 255, .7);
+}
+
+.form-small label {
+    font-size: 18px;
+}
+
+.form-small input::placeholder {
+    font-size: 12px;
+}
+
+.form-background {
+    background-color: rgba(67, 70, 75);
+    margin-top: 0;
+}
+
+.contact-form-md {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    color: #fafafa;
+    font-family: teko, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    border-style: solid;
+    border-color: rgba(125, 249, 255, .7);
+    padding: 50px;
+    background-color: #ED6B47
+}
+
+input {
+    text-align: center;
+    font-family: roboto, sans-serif;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.form-group label {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.gender {
+    margin-top: 15px;
+    font-family: teko, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.gender-small {
+    margin-top: 25px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.gender-small > label {
+    text-decoration: underline;
+}
+
+.gender h3 {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.gender-radio {
+    margin-left: 30px;
+}
+
+.age { 
+    margin-top: 15px;
+    font-family: teko, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.mobile-age label {
+    font-size: 18px;
+    text-decoration: underline;
+}
+  
 
 @media (max-width: 800px) {
     .cover-intro {
@@ -493,6 +625,7 @@ tr {
         margin-left: 125px;
     }
 
+}
 @media (max-width: 360px) {   
     .mobile-steps{
         font-size: 18px;
@@ -507,5 +640,11 @@ tr {
 @media (max-width: 360px) {  
     .title-text {
         font-size: 18px;
+    }
+}
+@media (max-width: 760px) {
+    .contact-form-md {
+        padding: 0;
+        width: 100%;
     }
 }

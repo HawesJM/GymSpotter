@@ -29,7 +29,7 @@ The Gym Spotter logo is displayed in the header and footer of all pages, and on 
 ##### Wireframes
 
 ### Limitations
-Due to no JavaScript functionality, apart from Bootstraps(JS/JQuery) there is no contact form that will store data or send email requests. Also for this reason the intended individual workout plans cannot be created, and the spinner on "Plans and Goals" continues to run indefinitely.
+Due to no JavaScript functionality, apart from Bootstraps(JS/JQuery) there is no contact form that will store data or send email requests. Also for this reason the intended individual workout plans cannot yet be created.
 
 ### Features
 ##### Existing Features
