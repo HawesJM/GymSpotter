@@ -117,7 +117,7 @@ h4 {
     border: 0px;
  }
 
- .btn:hover {
+ .btn-info:hover {
     background-color:#ED6B47;
     color: white;
  }
@@ -526,7 +526,7 @@ tr {
     border-style: solid;
     border-color: rgba(125, 249, 255, .7);
     padding: 50px;
-    background-color: #ED6B47
+    background-color: #ED6B47;
 }
 
 input {
@@ -577,11 +577,45 @@ label {
     font-size: 24px;
 }
 
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #fafafa;
+}
+
 .mobile-age label {
     font-size: 18px;
     text-decoration: underline;
 }
-  
+
+.btn-primary {
+    font-size: 24px;
+    font-weight: 500px;
+    text-transform: uppercase;
+    background-color: #43464b;
+    border-color: #43464b;
+    color: #ED6B47;
+}
+
+.btn-primary:hover {
+    background-color:#ED6B47;
+    color: #fafafa;
+    border-color: #ED6B47;
+}
+
+.form-submit-mobile {
+    margin-top: 15px;
+}
+
+.submit-mobile {
+    font-size: 18px;
+    font-family: teko, sans-serif;
+    font-weight: 300px;
+    text-transform: uppercase;
+    background-color: #43464b;
+    border-color: #43464b;
+    color: #ED6B47;
+}
+
 
 @media (max-width: 800px) {
     .cover-intro {

@@ -49,18 +49,19 @@
   <main>
     <section>
         <div class="container-fluid d-none d-md-block social-intro">
-        <h2>You got physical, now get social!
+        <h2>Contact Form <br>
+            You got physical, now get social!
         </h2>
         <p>
             Knowing yourself and definining goals is the essential starting point for your fitness journey. Nevertheless when it comes to fitness motivation and inspiration, there's truth to the old adage "strength in numbers". Exercising in a group has been proven to be both more efficient and more enjoyable. So in addition to receiving your own personally tailored workout plan, <strong>signup below for details and regular updates on our classes and group sessions</strong>.
         </p>
     </div>
     <div class="mobile-social d-md-none">
-        <h2>You got physical, now get social!
+        <h2>Contact Form <br>You got physical, now get social!
         </h2>
-                <p>Group workouts are proven to be more effective. Signup for your own custom plan, regular tips and our full class scheduling today</p>
+                <p>Group workouts are proven to be more effective, so signup to receive our full group class scheduling as well as your personal plan and regular tips.</p>
        <div class="form-small">
-        <form class="d-md-none">
+        <form class="d-md-none" action="thankyou.html" target="_blank">
             <div class="row">
                         <div class="form-group col">
                         <label for="inputname">Name</label>
@@ -92,16 +93,18 @@
                 <br>
                 <input type="number">
                 </div>
-            </div>    
-                </div>
             </div> 
+            <div class="form-submit-mobile">
+                        <button type="submit" class="btn btn-primary submit-mobile">Submit and Signup</button>
+                    </div>   
+                </div>
         </form>
         </div>
     </div>
 
         <div class="d-none d-md-block container-fluid form-background">
             <div class="contact-form-md">
-                <form class="d-none d-md-block">
+                <form class="d-none d-md-block" action="thankyou.html" target="_blank">
                     <div class="row">
                         <div class="form-group col-sm-6">
                         <label for="inputname">Name</label>
@@ -129,8 +132,11 @@
                     </div>
                     <div class="row age">
                         <label for="age" class="form-label"><h3>Age</h3></label>
-                        <input type="range" class="form-range" min="18" max="65" id="rangeValue" oninput="rangevalue.innerText = this.value" class="form-range">
+                        <input type="range" class="form-range" min="18" max="65" id="rangeValue" oninput="rangevalue.innerText = this.value">
                         <p id="rangevalue"></p>
+                    </div>
+                    <div class="form-submit">
+                        <button type="submit" class="btn btn-primary">Submit and Signup</button>
                     </div>
                 </form>    
             </div>    
