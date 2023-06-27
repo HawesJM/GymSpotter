@@ -616,6 +616,12 @@ input[type=range]::-webkit-slider-thumb {
     color: #ED6B47;
 }
 
+.carousel-inner {
+    width: 49%;
+    margin: auto;
+    border-style: solid;
+    border-color: rgba(125, 249, 255, .7);
+}
 
 @media (max-width: 800px) {
     .cover-intro {
@@ -664,6 +670,7 @@ input[type=range]::-webkit-slider-thumb {
     .mobile-steps{
         font-size: 18px;
     }
+}
 
 @media (max-width: 360px) {  
     .plan-table-small {
@@ -679,6 +686,12 @@ input[type=range]::-webkit-slider-thumb {
 @media (max-width: 760px) {
     .contact-form-md {
         padding: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 766px) {
+    .carousel-inner {
         width: 100%;
     }
 }
