@@ -616,11 +616,41 @@ input[type=range]::-webkit-slider-thumb {
     color: #ED6B47;
 }
 
+.carousel-container {
+    background: linear-gradient(to bottom, #43464b, #ED6B47);
+}
+
+.testimonial-header {
+    color: #fafafa;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .carousel-inner {
     width: 49%;
     margin: auto;
     border-style: solid;
     border-color: rgba(125, 249, 255, .7);
+    padding-bottom: 50px;
+}
+
+.carousel-caption > h5 {
+    color: #ED6B47;
+    font-family: teko, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.carousel-caption {
+    color: #ED6B47;
+    font-family: teko, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
 }
 
 @media (max-width: 800px) {
