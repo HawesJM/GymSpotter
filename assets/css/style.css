@@ -651,6 +651,7 @@ input[type=range]::-webkit-slider-thumb {
     font-family: teko, sans-serif;
     font-weight: 500;
     font-size: 24px;
+    align-items: middle;
 }
 
 @media (max-width: 800px) {
@@ -723,5 +724,27 @@ input[type=range]::-webkit-slider-thumb {
 @media (max-width: 766px) {
     .carousel-inner {
         width: 100%;
+    }
+}
+
+@media (max-width: 920px) {
+    
+    .carousel-item h5 {
+        font-size: 18px;
+    }
+
+    .carousel-item P {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 360px) {
+    
+    .carousel-item h5 {
+        font-size: 12px;
+    }
+
+    .carousel-item P {
+        font-size: 12px;
     }
 }
