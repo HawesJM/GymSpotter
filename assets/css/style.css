@@ -715,6 +715,8 @@ input[type=range]::-webkit-slider-thumb {
     font-family: teko, sans-serif;
     font-weight: 300;
     font-size: 24px;
+    height: 100%;
+    margin-bottom: 0px;
 }
 
 .mobile-resources {
@@ -729,11 +731,22 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .mobile-links-list {
+    display: flex;
     position: absolute;
-    left: 10px;
-    top: 80px;
+    height: 50%;
+    width: 50%;
+    top: 10%;
+    left: 1%;
+    margin: auto;
     color: #fafafa;
     font-family: teko, sans-serif;
+    background-color: rgba(237, 107, 71, 0.7);
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+
+.links-list-mobile {
+    margin-bottom: 0;
 }
 
 .links-list-mobile a {
@@ -744,9 +757,52 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .links-list-mobile a:hover {
-    color: #ED6B47;
+    color: rgba(125, 249, 255);
 
 }
+
+.links-list-mobile li {
+    padding-right: 5px;
+}
+
+.map-header {
+    background-color: #ED6B47;
+    margin-bottom: 0;
+}
+
+.mobile-google-map {
+     padding-bottom: 50%;
+     position: relative;
+}
+
+.mobile-google-map iframe {
+     height: 100%;
+     width: 100%;
+     left: 0;
+     top: 0;
+     position: absolute;
+}
+
+.google-map {
+     padding-bottom: 50%;
+     position: relative;
+     background: linear-gradient(to bottom, #ED6B47, #43464b);
+}
+
+.google-map iframe {
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 50%;
+    width: 50%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.google-map-large {
+    margin-top: 10%
+}
+
 @media (max-width: 800px) {
     .cover-intro {
         display: none;
@@ -844,5 +900,29 @@ input[type=range]::-webkit-slider-thumb {
 
 @media (max-width: 961px) {
     .links-container {
+    }
+}
+
+@media (max-width: 541px) {
+    .mobile-links-list ol {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 541px) {
+    .mobile-links-list a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 369px) {
+    .mobile-links-list ol {
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 369px) {
+    .mobile-links-list a {
+        font-size: 7px;
     }
 }
