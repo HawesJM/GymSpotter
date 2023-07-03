@@ -510,7 +510,7 @@ tr {
 }
 
 .form-background {
-    background-color: rgba(67, 70, 75);
+    background-color: rgba(67, 70, 75,);
     margin-top: 0;
 }
 
@@ -519,9 +519,9 @@ tr {
     margin-right: auto;
     width: 50%;
     text-align: center;
-    color: #fafafa;
+    color: #43464b;
     font-family: teko, sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 24px;
     border-style: solid;
     border-color: rgba(125, 249, 255, .7);
@@ -564,6 +564,10 @@ label {
 .gender h3 {
     text-transform: uppercase;
     text-decoration: underline;
+    color: #43464b;
+    font-family: teko, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
 }
 
 .gender-radio {
