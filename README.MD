@@ -1,4 +1,4 @@
-[alt text](https://hawesjm.github.io/GymSpotter/assets/images/gym%20spotter%20logo.jpg)
+![alt text](https://hawesjm.github.io/GymSpotter/assets/images/gym%20spotter%20logo.jpg)
 
 # Gym Spotter
 ### Introduction
