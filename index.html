@@ -2,174 +2,178 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Teko:wght@300;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <title>Gym Spotter</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Teko:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Gym Spotter</title>
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-sm navbar-light container-fluid flex-column"> 
-        <div class="d-flex flex-column flex-md-row container-fluid justify-content-between align-items-center">
-            <a class="navbar-brand navbar-logo" href="index.html">
-                <img src="assets/images/gym-spotter-logo.jpg" alt="Gym Spotter Logo">
-            </a>
-        <div class="title-text"><h1>Be supported, stay motivated, and maximise your workouts</h1></div>
-        <div id="spacerbox"></div>
-        </div>
-        <button class="navbar-toggler align-self-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="nav navbar-nav">
-        <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="plansandgoals.html">Plans and Goals</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact and Social</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="externalresources.html">Partners and External Resources</a>
-        </li>
-        </ul>
-        </div>
-    </nav>
-  </header>
-  <main>
-    <section class="hero-outer"> 
-        <div>
-            <img src="assets/images/pexels-anastasia-shuraeva-4944957.jpg" alt="Gym Logger Main Image" class="hero-image">
-        </div>
-        <div class="cover-intro">  
-            <h2 class="cover-intro-header">Boost your training</h2>
-            <h2 class="cover-intro-header">Focus. Plan. Level Up.</h2>
-        </div>        
-    </section>
-    <section>
-        <div class="container-fluid reasons-container">
-            <div class="row">
+
+    <!-- Header same across all pages includes main navigation and heading -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light container-fluid flex-column">
+            <div class="d-flex flex-column flex-md-row container-fluid justify-content-between align-items-center">
+                <a class="navbar-brand navbar-logo" href="index.html">
+                    <img src="assets/images/gym-spotter-logo.jpg" alt="Gym Spotter Logo">
+                </a>
+                <div class="title-text">
+                    <h1>Be supported, stay motivated, and maximise your workouts</h1>
+                </div>
+                <div id="spacerbox"></div>
+            </div>
+
+             <!-- Navbar toggler for responsive design -->
+            <button class="navbar-toggler align-self-start" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="plansandgoals.html">Plans and Goals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact and Social</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="externalresources.html">Partners and External Resources</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <!-- Main section to indivcate purpose of and how to use the site -->
+        <section class="hero-outer">
+            <div>
+                <img src="assets/images/pexels-anastasia-shuraeva-4944957.jpg" alt="Gym Logger Main Image"
+                    class="hero-image">
+            </div>
+            <div class="cover-intro">
+                <h2 class="cover-intro-header">Boost your training</h2>
+                <h2 class="cover-intro-header">Focus. Plan. Level Up.</h2>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid reasons-container">
+                <div class="row">
                     <div class="col-12">
-                        <h3 class="homepage-section-heading">What we do, why, and how we do it</h4>
+                        <h3 class="homepage-section-heading">What we do, why, and how we do it</h3>
                     </div>
-                </div>     
-        </div>    
-    <div class="row reasons-columns">
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6 col-lg-4">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-question" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading inline-block">Why workout?</h4>
-                                <ul class="reasons-why">
-                                    <li>Reduce stress and feel happier</li>
-                                    <li>Lose weight and gain energy</li>
-                                    <li>Boost your metabolism</li>
-                                    <li>Heighten self discipline</li>
-                                    <li>Have fun and meet people</li>
-                                </ul>    
-                            </div>
+                </div>
+            </div>
+            <div class="row reasons-columns">
+                <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6 col-lg-4">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="three-reasons-icon fa fa-question" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="three-reasons-heading inline-block">Why workout?</h4>
+                            <ul class="reasons-why">
+                                <li>Reduce stress and feel happier</li>
+                                <li>Lose weight and gain energy</li>
+                                <li>Boost your metabolism</li>
+                                <li>Heighten self discipline</li>
+                                <li>Have fun and meet people</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6 col-lg-4">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-award" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading inline-block">Goals and aims</h4>
-                                <ul class="reasons-goals">
-                                    <li>Achieve your ideal body type</li>
-                                    <li>Train for your sport</li>
-                                    <li>Hit your targets</li>
-                                    <li>Beat your best times</li>
-                                    <li>Stimulate body and mind</li>
-                                </ul>   
-                            </div>
+                </div>
+                <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6 col-lg-4">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="three-reasons-icon fa fa-award" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="three-reasons-heading inline-block">Goals and aims</h4>
+                            <ul class="reasons-goals">
+                                <li>Achieve your ideal body type</li>
+                                <li>Train for your sport</li>
+                                <li>Hit your targets</li>
+                                <li>Beat your best times</li>
+                                <li>Stimulate body and mind</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6 col-lg-4">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-face-smile-wink" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase inline-block">Hints and tips</h4>
-                                <ul class="reasons-hints">
-                                    <li>Get involved - stay motivated</li>
-                                    <li>Keep a record - stay on track</li>
-                                    <li>Study techniques</li>
-                                    <li>Set realistic goals</li>
-                                    <li>Be kind to yourself</li>
-                                </ul>   
-                            </div>
+                </div>
+                <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6 col-lg-4">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="three-reasons-icon fa fa-face-smile-wink" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="three-reasons-heading uppercase inline-block">Hints and tips</h4>
+                            <ul class="reasons-hints">
+                                <li>Get involved - stay motivated</li>
+                                <li>Keep a record - stay on track</li>
+                                <li>Study techniques</li>
+                                <li>Set realistic goals</li>
+                                <li>Be kind to yourself</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
             <hr>
+
+            <!-- Primary call to action to continue navigating the site -->
             <div class="container-fluid lead about-container">
-                We'll admit, working out is hard. With weights and exercise, as with life, everyone needs a spotter from time to time. <br>That's what we're here for. With experience, a wealth of expert partners, and a strong community</br>
+                We'll admit, working out is hard. With weights and exercise, as with life, everyone needs a spotter from
+                time to time. <br>That's what we're here for. With experience, a wealth of expert partners, and a strong
+                community<br>
                 we'll keep you informed, strong, and motivated to get you right where you want to be
-            </div>    
+            </div>
             <div class="button-center">
-                <a href="plansandgoals.html">
-                    <button type="button" class="btn btn-info">Find out more</button>
-                </a>    
-            </div>              
-    </section>    
-  </main>
+                <a href="plansandgoals.html" class="btn btn-info" role="button">Find out more</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer including logo and external social media links same across all pages -->
     <footer>
         <div class="text-center text-white social-footer">
             <div class="container pt-3">
-                <section class="mb-3">
-                <a
-                class="btn btn-link btn-floating btn-lg text-dark m-1" aria-label="Facebook Link"
-                href="https://www.facebook.com/"
-                target="_blank"
-                role="button"
-                data-mdb-ripple-color="dark"
-                ><i class="fab fa-facebook-f"></i
-                ></a>
-                <a
-                 class="btn btn-link btn-floating btn-lg text-dark m-1" aria-label="Twitter Link"
-                href="https://twitter.com/"
-                target="_href"
-                role="button"
-                data-mdb-ripple-color="dark"
-                ><i class="fab fa-twitter"></i
-                ></a>
-                <a
-                 class="btn btn-link btn-floating btn-lg text-dark m-1" aria-label="Instagram Link"
-                 href="https://www.instagram.com/"
-                 target="_blank"
-                 role="button"
-                 data-mdb-ripple-color="dark"
-                ><i class="fab fa-instagram"></i
-                ></a>
-        </div>        
-    </section>
-  <div class="text-center text-dark p-3 copy-div">
-    © 2023 Copyright:
-    <a class="text-dark" href="index.html">Gym Spotter</a>
-  </div>
-  
-<div class="footer-logo">
-    <a class="navbar-brand navbar-logo" href="index.html">
-            <img src="assets/images/gym-spotter-logo.jpg" alt="Gym Spotter Logo">
-        </a>
-</div>
-</footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js" integrity="sha512-3dZ9wIrMMij8rOH7X3kLfXAzwtcHpuYpEgQg1OA4QAob1e81H8ntUQmQm3pBudqIoySO5j0tHN4ENzA6+n2r4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</body>  
+                <div class="mb-3">
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" aria-label="Facebook Link"
+                        href="https://www.facebook.com/" target="_blank" role="button" data-mdb-ripple-color="dark"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" aria-label="Twitter Link"
+                        href="https://twitter.com/" target="_blank" role="button" data-mdb-ripple-color="dark"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" aria-label="Instagram Link"
+                        href="https://www.instagram.com/" target="_blank" role="button" data-mdb-ripple-color="dark"><i
+                            class="fab fa-instagram"></i></a>
+            </div>
+            <div class="text-center text-dark p-3 copy-div">
+                © 2023 Copyright:
+                <a class="text-dark" href="index.html">Gym Spotter</a>
+            </div>
+            <div class="footer-logo">
+                <a class="navbar-brand navbar-logo" href="index.html">
+                    <img src="assets/images/gym-spotter-logo.jpg" alt="Gym Spotter Logo">
+                </a>
+            </div>
+        </div>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"
+        integrity="sha512-3dZ9wIrMMij8rOH7X3kLfXAzwtcHpuYpEgQg1OA4QAob1e81H8ntUQmQm3pBudqIoySO5j0tHN4ENzA6+n2r4w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

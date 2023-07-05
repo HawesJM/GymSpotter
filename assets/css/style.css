@@ -168,13 +168,25 @@ h4 {
     font-weight: 300;
 }
 
+.plan-header {
+    font-family: "teko", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fafafa;
+    text-decoration: underline;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
 .copy-div {
     background-color: #F2F2F2;
 }
 
-.foundation-icon {
-    color: #ED6B47;
+.fa-trowel-bricks {
+    margin-top: 10px;
+    color: rgba(67, 70, 75);
     font-size: 200px;
+    margin-bottom: 15px;
 }
 
 .ticker {
@@ -208,7 +220,7 @@ h4 {
 }
 
 .row-archetypes {
-    padding-top: 50px;
+    padding-top: 25px;
     margin-left: 0;
     margin-bottom: 0;
     padding-right: 0;
@@ -387,7 +399,7 @@ strong {
     background-color: #F2F2F2;
 }
 
-.planner-small h2 {
+.planner-small h3 {
     padding-top: 20px;
     padding-bottom: 20px;
     text-decoration: underline;
@@ -440,7 +452,7 @@ tr {
     text-align: center;
 }
 
-.foundation-icon-div {
+.foundation-icon-tr {
     margin-top: 25px;
 }
 
@@ -494,7 +506,7 @@ tr {
     padding-bottom: 25px;
 }
 
-.mobile-app > h3 {
+.mobile-app > h4 {
     text-align: center;
     font-family: "teko", sans-serif;
     font-weight: 300;
