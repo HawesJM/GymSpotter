@@ -80,7 +80,7 @@ place-hold.it was used to display the colours shown in the Color Scheme section.
 ### Testing
 
 ##### Strategy
-As this project is static and contains no back-end functionality, the testing performed will be on the visual effects and layout of the Website including navbars, buttons and links. Testing to be done on at least three web browsers and all screen sizes.
+As this project is static and contains no back-end functionality, the testing performed will be on the visual effects and layout of the Website including navbars, buttons and links.
 
 No elements should overlap another container div. All elements should remain on the screen at all sizes above 300px. All carousel items should be controllable with the mouse as well as sliding on a timer.
 
