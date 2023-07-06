@@ -17,9 +17,9 @@ Gym Spotter is built using pure HTML5 and CSS according to the principles of cre
 ##### User Experience Design
 For fist time visitors I imagined the user first of all wanting to know the best way to get started working out in an appropriate way, and quickly access a starting framework for sustainable progress and remaining motivated. For returning users I wanted to begin developing a framework where they can continually assess their progress according to an easily defined roadmap and measure their achievements against certain external standards. In both cases I wanted clear and easily navigable content on desktop, tablet and also mobile device so users can effectively achieve their goals while working out or while taking some rest in their downtime.
 ##### Navigation
-All Pages will contain a Navigation menu at the top of the Webpage that directs them to a new Page to easily allow users to Navigate the site easily. The Nav Menu will be collapsable on a Mobile device to make use of space on smaller devices. The homepage will give a brief introduction to the purpose of the site itself. "Plans and Goals" will provide users with the basic information to get started. "Contact and Social" will help users to stay on track through positive engagement and accountability. "External Resources" will provide paths for users to enhance and develop their workout plans and lifestyle according to the principles introduced in previous sections.
+All Pages will contain a Navigation menu at the top of the Webpage that directs them to a new Page to easily allow users to Navigate the site easily. The Nav Menu will be collapsible on a Mobile device to make use of space on smaller devices. The homepage will give a brief introduction to the purpose of the site itself. "Plans and Goals" will provide users with the basic information to get started. "Contact and Social" will help users to stay on track through positive engagement and accountability. "External Resources" will provide paths for users to enhance and develop their workout plans and lifestyle according to the principles introduced in previous sections.
 
-Across all devices and screen sizes the layout will remain clean and the flow of information will progress logically, enhanced at certain points by CTAs. All pages will contain a footer with social media contact links for further engagement. Certain elements on each page will respond interactively to help usersmove through the information flow of the site.
+Across all devices and screen sizes the layout will remain clean and the flow of information will progress logically, enhanced at certain points by CTAs. All pages will contain a footer with social media contact links for further engagement. Certain elements on each page will respond interactively to help users move through the information flow of the site.
 
 ### Design
 ##### Colour Scheme
@@ -67,7 +67,7 @@ Font awesome Icons are used in the Body of the site and for the Social media lin
 - **Google Fonts**
 Google fonts are used throughout the project to import the Teko and Roboto fonts
 - **Code Anywhere**
-The IDE for writing the code
+The IDE for writing the code, using CI approved template
 - **GitHub**
 GithHub is the hosting site used to store the source code for the Website and Git Pages is used for the deployment of the live site.
 - **Google Chrome Developer Tools**
@@ -79,6 +79,35 @@ place-hold.it was used to display the colours shown in the Color Scheme section.
 
 ### Testing
 
+##### Strategy
+As this project is static and contains no back-end functionality, the testing performed will be on the visual effects and layout of the Website including navbars, buttons and links. Testing to be done on at least three web browsers and all screen sizes.
+
+No elements should overlap another container div. All elements should remain on the screen at all sizes above 300px. All carousel items should be controllable with the mouse as well as sliding on a timer.
+
+All nav links should direct to the correct html pages as per their names. The Home page is the exception, this one will redirect to index.html.
+
+All links to external websites must open in a new browser.
+
+Testing of form validation will also be required to ensure the correct inputs are taken and that all fields are required.
+
+##### Initial Bugs
+Index html columns not centered. Solved with media query and margin left.
+Text size for columns wont increase for larger screen sizes, too small. Solved with media query.
+Hamburger menu not working on mobile, due to bootstrap class error, wrong target property.
+Form columns bootstrap – changed div class from “form-row” to “row”. Alignment issue solved with margin auto.
+Testimonial text size for mobile – solved by media query.
+
+All other bugs related to positioning and sizing of flexbox elements or bootrstrap columns, e.g. with the Google Maps iframe as below eventually solved by giving parent div fixed height and width properties before styling accordingly.
+
+![alt text](testing/map-padding-bug.png)
+
+##### Testing Methodology
+
+##### Testing Report
+![alt text](testing/testingreport.png)
+Full testing results can be found here testing/gym-spotter-testing.xlsx
+Please note these results are a .xlsx file and will require excel, google docs or compatiable program to open the file.
+Additionally, all pages were run through the W3C HTML Validator.
 ### Deployment & Usage
 
 
