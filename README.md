@@ -102,12 +102,31 @@ All other bugs related to positioning and sizing of flexbox elements or bootrstr
 ![alt text](testing/map-padding-bug.png)
 
 ##### Testing Methodology
+video at testing/2023-07-07 00-04-43.mkv
+
+As a First Time user, I want to easily understand the main purpose of the site and learn more about the organisation. - Testing was performed to ensure sufficient information was displayed on the Home Page.
+
+As a First Time user, I want to be able to easily navigate throughout the site to find content. - Testing was performed on all Navigation links to ensure users can easily navigate the Website.
+
+As a First Time user, I want to view the website and content clearly on my mobile device. - Testing was performed to ensure the Website was responsive on all devices.
+
+As a First Time user, I want to find ways to follow the Gym Spotter on different social media platforms. - Testing was performed to ensure Social Media links had been added to the Website.
+
+As a Returning user, I want to enter my details so the organisation could respond with relevant information. - Testing was done to ensure there was a contact form on the Website.
+
+As a Frequent user, I want to check local resources. - Testing was done to ensure the map displayed properly on all devics.
+
+As a Frequent user, I want to check to see how active and involved Gym Spotter is in the fitness community. - Testing was done to ensure the partners section was clear and responsive.
 
 ##### Testing Report
 ![alt text](testing/testingreport.png)
 Full testing results can be found here testing/gym-spotter-testing.xlsx
 Please note these results are a .xlsx file and will require excel, google docs or compatiable program to open the file.
+Related images:
+![alt text](testing/aria-test-index.png)
+![alt text](testing/lighthouse-index.html page.png)
 Additionally, all pages were run through the W3C HTML Validator.
+![alt text](testing/html-validator-index.html.png)
 ### Deployment & Usage
 
 
