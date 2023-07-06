@@ -1,4 +1,4 @@
-![alt text](https://hawesjm.github.io/GymSpotter/assets/images/gym%20spotter%20logo.jpg)
+![alt text](assets/images/gym-spotter-logo.jpg)
 
 # Gym Spotter
 ### Introduction
@@ -6,12 +6,14 @@ Gym Spotter is a web application designed to aid the individual user to develop 
 
 The concept was developed for the purpose of completing the first Milestone Project for the Code Institute's Full Stack Developer course. It was built to express the knowledge and skills gained from the HTML, CSS and User Centric Design modules.
 
-The live website can be found here.
+The live website can be found here https://hawesjm.github.io/GymSpotter/
 
 ### Structure
 ##### Archetecture
 Gym Spotter is built using pure HTML5 and CSS according to the principles of creating a responsive and accessible static front-end user-centric website. Bootstrap and media queries were also used to ensure responsive design.
-[alt text](https://hawesjm.github.io/GymSpotter/assets/images/gym%20spotter%20logo.jpg) *add mockup images
+
+![alt text](assets/images/mock-up-image.png)
+
 ##### User Experience Design
 For fist time visitors I imagined the user first of all wanting to know the best way to get started working out in an appropriate way, and quickly access a starting framework for sustainable progress and remaining motivated. For returning users I wanted to begin developing a framework where they can continually assess their progress according to an easily defined roadmap and measure their achievements against certain external standards. In both cases I wanted clear and easily navigable content on desktop, tablet and also mobile device so users can effectively achieve their goals while working out or while taking some rest in their downtime.
 ##### Navigation
@@ -21,22 +23,37 @@ Across all devices and screen sizes the layout will remain clean and the flow of
 
 ### Design
 ##### Colour Scheme
-The main background colour is Grey [alt text] (https://place-hold.it/25x25/#F2F2F), with a darker shade for certain areas of focus or calls to action. This aims to echo the industrial colour scheme popular with a lot of urban gyms. The main accent colour is Orange which provides excellent contrast and elevates the Grey tones with an energetic, modern feel. Occasionally a light Blue is used to further this.
+The main background colour is Grey ![alt text] (assets/images/43464b.jpg), with a darker shade for certain areas of focus or calls to action. This aims to echo the industrial colour scheme popular with a lot of urban gyms. The main accent colour is Orange ![alt text] (assets/images/ED6B47.jpg) which provides excellent contrast and elevates the Grey tones with an energetic, modern feel. Occasionally a light Blue is used to further this.
 ##### Typography
 The main font used is Teko to enhance the modern industrial feel of the website with provision for using Roboto when this is necessary for further clarity.
 ##### Imagery
 The Gym Spotter logo is displayed in the header and footer of all pages, and on all devices and screensizes. The exact placement, positioning and sizing of the logo will change depending on the screen size. The website also displays images for general motivation or to help clarify specific sections of information.
 ##### Wireframes
-
+###### Homepage
+![alt text](assets/images/homepage-wireframe.png)
+###### Plans and Goals
+![alt text](assets/images/plans-wireframe.png)
+###### Contact and Social
+![alt text](assets/images/contact-wireframe.png)
+###### Partners and External Resources
+![alt text](assets/images/resources-wireframe.png)
+###### Differences
+Needed more space appropriate descriptive elements on Plans and Goals page for mobile. Slight changes to logo position for different screen sizes.
 ### Limitations
-Due to no JavaScript functionality, apart from Bootstraps(JS/JQuery) there is no contact form that will store data or send email requests. Also for this reason the intended individual workout plans cannot yet be created.
+Due to no JavaScript functionality, apart from Bootstraps(JS/JQuery) there is no contact form that will store data or send email requests. Also for this reason the intended individual workout plans cannot be created.
 
 ### Features
 ##### Existing Features
 - CTA button on home page
+- Responsive table with workout plans
+- Responsive contact form with fields and slider
+- Responsive Google maps iframe
+- Responsive testimonials carousel
+
 ##### To Be Added
 - Member login area and forum
-- 
+- Form clearing function
+
 ### Technologies
 - **HTML**
 This project uses HTML as the main language used to complete the structure of the Website.
@@ -62,6 +79,6 @@ place-hold.it was used to display the colours shown in the Color Scheme section.
 
 ### Testing
 
-### Deployment
+### Deployment & Usage
 
 
