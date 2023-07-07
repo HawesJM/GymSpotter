@@ -3,31 +3,43 @@
 # Gym Spotter
 ## Table Of Contents
 1. **Introduction**
-2. **Structure**
+   
+3. **Structure**
 * Architecture
 * UX Design
 * Navigation
+  
 3. **Design**
 * Colour Scheme
 * Typography
 * Imagery
 * Wireframes
+  
 4. **Limitations**
-5. **Features**
+   
+6. **Features**
 * Existing Features
 * To Be Added
+  
 6. **Technologies**
-7. **Testing**
+   
+8. **Testing**
 * Strategy
 * Initial Bugs
 * Testing Methodology
 * Testing Report
+  
 8. **Deployment**
-9. **Usage**
-10. **Collaboration**
-11. **Acknowledgments**
-12. **Further Development**
-13. **Final Notes**
+   
+10. **Usage**
+    
+12. **Collaboration**
+    
+14. **Acknowledgments**
+    
+16. **Further Development**
+    
+18. **Final Notes**
 
 ### Introduction
 Gym Spotter is a web application designed to aid the individual user to develop and maintain a desired exercise routine in order to set and achieve specific fitness aims and life goals. To do this it aims to help users assess their body type, set realistic fitness targets with this in mind, and plan accordingly with the most efficient strategy and techniques for them. Gym Spotter also aims to support the user by introducing the concept of a community of individuals with shared goals, as sharing their progress within a likeminded peer group of individuals with similar time constrains or struggles helps build accountability and maintain motivation. Gym Spotter also aims to underpin this heightened knowledge and sharpened motivation by providing users with a wealth of tips and external resources to find the best workout regime for them. In so doing Gym Spotter aims to be a focal point of a conscientious and content fitness and lifestyle minded community that firstly offers advice and resources tailored to the individual, and secondly never loses sight of the sense fun and camaraderie offered by sports and exercise that keeps people engaged and motivated in their workouts.
