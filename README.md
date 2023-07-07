@@ -153,7 +153,7 @@ Please note these results are a .xlsx file and will require excel, google docs o
 Related images:
 ![alt text](testing/aria-test-index.png)
 
-![alt text](testing/lighthouse-index.html page.png)
+![alt text](testing/lighthouse-index.html-page.png)
 
 Additionally, all pages were run through the W3C HTML Validator.
 ![alt text](testing/html-validator-index.html.png)
