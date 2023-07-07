@@ -1,6 +1,34 @@
 ![alt text](assets/images/gym-spotter-logo.jpg)
 
 # Gym Spotter
+## Table Of Contents
+1. **Introduction**
+2. **Structure**
+.Architecture
+.UX Design
+.Navigation
+3. **Design**
+.Colour Scheme
+.Typography
+.Imagery
+.Wireframes
+4. **Limitations**
+5. **Features**
+.Existing Features
+.To Be Added
+6. **Technologies**
+7. **Testing**
+.Strategy
+.Initial Bugs
+.Testing Methodology
+.Testing Report
+8. **Deployment**
+9. **Usage**
+10. **Collaboration**
+11. **Acknowledgments**
+12. **Further Development**
+13. **Final Notes**
+
 ### Introduction
 Gym Spotter is a web application designed to aid the individual user to develop and maintain a desired exercise routine in order to set and achieve specific fitness aims and life goals. To do this it aims to help users assess their body type, set realistic fitness targets with this in mind, and plan accordingly with the most efficient strategy and techniques for them. Gym Spotter also aims to support the user by introducing the concept of a community of individuals with shared goals, as sharing their progress within a likeminded peer group of individuals with similar time constrains or struggles helps build accountability and maintain motivation. Gym Spotter also aims to underpin this heightened knowledge and sharpened motivation by providing users with a wealth of tips and external resources to find the best workout regime for them. In so doing Gym Spotter aims to be a focal point of a conscientious and content fitness and lifestyle minded community that firstly offers advice and resources tailored to the individual, and secondly never loses sight of the sense fun and camaraderie offered by sports and exercise that keeps people engaged and motivated in their workouts.
 
@@ -9,7 +37,7 @@ The concept was developed for the purpose of completing the first Milestone Proj
 The live website can be found here https://hawesjm.github.io/GymSpotter/
 
 ### Structure
-##### Archetecture
+##### Architecture
 Gym Spotter is built using pure HTML5 and CSS according to the principles of creating a responsive and accessible static front-end user-centric website. Bootstrap and media queries were also used to ensure responsive design.
 
 ![alt text](assets/images/mock-up-image.png)
@@ -124,9 +152,35 @@ Full testing results can be found here testing/gym-spotter-testing.xlsx
 Please note these results are a .xlsx file and will require excel, google docs or compatiable program to open the file.
 Related images:
 ![alt text](testing/aria-test-index.png)
+
 ![alt text](testing/lighthouse-index.html page.png)
+
 Additionally, all pages were run through the W3C HTML Validator.
 ![alt text](testing/html-validator-index.html.png)
-### Deployment & Usage
 
+### Deployment
+Deployed to GitHub pages via "Main" branch using the "pages build and deployment" workflow.
+
+To run locally:
+Navigate to the GitHub Repository
+Click the Code drop down menu.
+Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
+Open your developement editor of choice and open a terminal window in a directory of your choice.
+Use the 'git clone' command in terminal followed by the copied git URL.
+A clone of the project will be created locally on your machine.
+
+### Usage
+The page is publicly available at https://hawesjm.github.io/GymSpotter/ for users to access freely and navigate accordingly. No login details necessary to fully navigate the site and browse the information contained therein.
+
+### Collaboration
+All collaboration welcome to enhance the UX of the site through the development of back end support that tracks and logs the information of people filling in the contact form section of the site.
+
+### Acknowledgments
+I'd like to thank my Code Institute assigned mentor Daisy McGirr for her support and input, as well as Matt Bodden for his initial thoughts at the beginning of the project.
+
+### Further Development
+It is my intention that GymSpotter becomes the initial part of a larger series of related projects to create an interactive fitness community. As such no code is to be copied or shared externally without express permission.
+
+#### Final Notes
+The Partners section is purely for reference only and is not intended to indicate or suggest legitimate business links between the companies mentioned and GymSpotter, which is purely a fictional entity created for the purposes of this project under the course framework of DIWAD_MS1.
 
