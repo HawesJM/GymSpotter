@@ -4,24 +4,24 @@
 ## Table Of Contents
 1. **Introduction**
 2. **Structure**
-.Architecture
-.UX Design
-.Navigation
+* Architecture
+* UX Design
+* Navigation
 3. **Design**
-.Colour Scheme
-.Typography
-.Imagery
-.Wireframes
+* Colour Scheme
+* Typography
+* Imagery
+* Wireframes
 4. **Limitations**
 5. **Features**
-.Existing Features
-.To Be Added
+* Existing Features
+* To Be Added
 6. **Technologies**
 7. **Testing**
-.Strategy
-.Initial Bugs
-.Testing Methodology
-.Testing Report
+* Strategy
+* Initial Bugs
+* Testing Methodology
+* Testing Report
 8. **Deployment**
 9. **Usage**
 10. **Collaboration**
