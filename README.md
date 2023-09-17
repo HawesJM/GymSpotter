@@ -23,7 +23,7 @@
   
 6. **Technologies**
    
-8. **Testing**
+7. **Testing**
 * Strategy
 * Initial Bugs
 * Testing Methodology
