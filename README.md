@@ -59,7 +59,7 @@ Gym Spotter is built using pure HTML5 and CSS according to the principles of cre
 ![alt text](assets/images/mock-up-image.png)
 
 ##### User Experience Design
-For fist time visitors I imagined the user first of all wanting to know the best way to get started working out in an appropriate way, and quickly access a starting framework for sustainable progress and remaining motivated. For returning users I wanted to begin developing a framework where they can continually assess their progress according to an easily defined roadmap and measure their achievements against certain external standards. In both cases I wanted clear and easily navigable content on desktop, tablet and also mobile device so users can effectively achieve their goals while working out or while taking some rest in their downtime.
+For first time visitors I imagined the user first of all wanting to know the best way to get started working out in an appropriate way, and quickly access a starting framework for sustainable progress and remaining motivated. For returning users I wanted to begin developing a framework where they can continually assess their progress according to an easily defined roadmap and measure their achievements against certain external standards. In both cases I wanted clear and easily navigable content on desktop, tablet and also mobile device so users can effectively achieve their goals while working out or while taking some rest in their downtime.
 ##### Navigation
 All Pages will contain a Navigation menu at the top of the Webpage that directs them to a new Page to easily allow users to Navigate the site easily. The Nav Menu will be collapsible on a Mobile device to make use of space on smaller devices. The homepage will give a brief introduction to the purpose of the site itself. "Plans and Goals" will provide users with the basic information to get started. "Contact and Social" will help users to stay on track through positive engagement and accountability. "External Resources" will provide paths for users to enhance and develop their workout plans and lifestyle according to the principles introduced in previous sections.
 
@@ -84,7 +84,7 @@ The Gym Spotter logo is displayed in the header and footer of all pages, and on 
 ###### Differences
 Needed more space appropriate descriptive elements on Plans and Goals page for mobile. Slight changes to logo position for different screen sizes.
 ### Limitations
-Due to no JavaScript functionality, apart from Bootstraps(JS/JQuery) there is no contact form that will store data or send email requests. Also for this reason the intended individual workout plans cannot be created.
+Due to no JavaScript functionality, apart from Bootstrap(JS/JQuery) there is no contact form that will store data or send email requests. Also for this reason the intended individual workout plans cannot be created.
 
 ### Features
 ##### Existing Features
@@ -136,7 +136,7 @@ Testing of form validation will also be required to ensure the correct inputs ar
 
 ##### Initial Bugs
 Index html columns not centered. Solved with media query and margin left.
-Text size for columns wont increase for larger screen sizes, too small. Solved with media query.
+Text size for columns won't increase for larger screen sizes, too small. Solved with media query.
 Hamburger menu not working on mobile, due to bootstrap class error, wrong target property.
 Form columns bootstrap – changed div class from “form-row” to “row”. Alignment issue solved with margin auto.
 Testimonial text size for mobile – solved by media query.
@@ -158,7 +158,7 @@ As a First Time user, I want to find ways to follow the Gym Spotter on different
 
 As a Returning user, I want to enter my details so the organisation could respond with relevant information. - Testing was done to ensure there was a contact form on the Website.
 
-As a Frequent user, I want to check local resources. - Testing was done to ensure the map displayed properly on all devics.
+As a Frequent user, I want to check local resources. - Testing was done to ensure the map displayed properly on all devices.
 
 As a Frequent user, I want to check to see how active and involved Gym Spotter is in the fitness community. - Testing was done to ensure the partners section was clear and responsive.
 
@@ -181,7 +181,7 @@ To run locally:
 Navigate to the GitHub Repository
 Click the Code drop down menu.
 Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
-Open your developement editor of choice and open a terminal window in a directory of your choice.
+Open your development editor of choice and open a terminal window in a directory of your choice.
 Use the 'git clone' command in terminal followed by the copied git URL.
 A clone of the project will be created locally on your machine.
 
@@ -201,4 +201,5 @@ It is my intention that GymSpotter becomes the initial part of a larger series o
 The Partners section is purely for reference only and is not intended to indicate or suggest legitimate business links between the companies mentioned and GymSpotter, which is purely a fictional entity created for the purposes of this project under the course framework of DIWAD_MS1.
 #### Appendix
 
+![alt text](workspaces/GymSpotter/assets/images/gym-spotter-user-stories.png)
 

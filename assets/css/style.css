@@ -1,34 +1,39 @@
-body, html {
-  height: 100%;
+/* Main Page Styling */
+
+body,
+html {
+    height: 100%;
 }
 
+/* Header and Navigation Styling */
+
 h1 {
-  font-family: "teko", sans-serif;
-  font-weight: 500;
+    font-family: "teko", sans-serif;
+    font-weight: 500;
 }
 
 h2 {
-  font-family: "teko", sans-serif;
-  font-weight: 300;
+    font-family: "teko", sans-serif;
+    font-weight: 300;
 }
 
 nav a {
-  font-family: "teko", sans-serif;
-  font-weight: 500;
+    font-family: "teko", sans-serif;
+    font-weight: 500;
 }
 
 h3 {
-  font-family: "teko", sans-serif;
-  font-weight: 300;
+    font-family: "teko", sans-serif;
+    font-weight: 300;
 }
 
 h4 {
-  font-family: "teko", sans-serif;
-  font-weight: 300;
+    font-family: "teko", sans-serif;
+    font-weight: 300;
 }
 
 .header-div {
-  background-color: #F2F2F2;
+    background-color: #F2F2F2;
 }
 
 .footer-container {
@@ -40,13 +45,13 @@ h4 {
     position: relative;
 }
 
- .hero-image {
+.hero-image {
     height: auto;
     width: 100%;
     background: url("/assets/images/pexels-leon-ardho-1552242.jpg") no-repeat center center;
- }  
+}
 
- .cover-intro {
+.cover-intro {
     width: 300px;
     height: 300px;
     bottom: 30px;
@@ -58,55 +63,55 @@ h4 {
     display: grid;
     place-items: center;
     text-transform: uppercase;
- }
+}
 
- .cover-intro-header {  
+.cover-intro-header {
     font-weight: 500;
- }
+}
 
- .reasons-container {
+.reasons-container {
     background-color: #ED6B47;
     width: 100%;
     font-family: "teko", sans-serif;
- }
- 
- .homepage-section-heading {
+}
+
+.homepage-section-heading {
     margin-top: 10px;
     font-family: "teko", sans-serif;
     font-weight: 500;
     font-size: 32px;
- }
+}
 
- .reasons-columns {
+.reasons-columns {
     margin-top: 50px;
     margin-left: 5px;
     margin-right: 0px;
- }
+}
 
- .three-reasons-icon {
+.three-reasons-icon {
     font-size: 36px;
- }
+}
 
- ul {
+ul {
     font-family: "teko", sans-serif;
 
- }
+}
 
- .about-container {
+.about-container {
     width: 100%;
     font-family: "teko", sans-serif;
     font-weight: 300;
     font-size: 32px;
     text-align: center;
- }
+}
 
- .button-center {
+.button-center {
     text-align: center;
     font-family: "teko", sans-serif;
     font-weight: 500;
- }
- 
- .btn-info {
+}
+
+.btn-info {
     width: 300px;
     height: 80px;
     font-size: 24px;
@@ -115,12 +120,12 @@ h4 {
     margin-top: 20px;
     margin-bottom: 10px;
     border: 0px;
- }
+}
 
- .btn-info:hover {
-    background-color:#ED6B47;
+.btn-info:hover {
+    background-color: #ED6B47;
     color: white;
- }
+}
 
 .container-fluid {
     width: 100%;
@@ -136,10 +141,10 @@ h4 {
     width: 80%;
     font-family: "teko", sans-serif;
     font-weight: 500;
-    font-size:36px;
+    font-size: 36px;
 
 }
- 
+
 .navbar {
     background-color: #F2F2F2;
 }
@@ -204,8 +209,13 @@ h4 {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: .5; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: .5;
+    }
 }
 
 .ticker-text {
@@ -243,7 +253,7 @@ h4 {
     margin-top: 0px;
     background-color: rgba(67, 70, 75);
     border-top: 3px solid rgba(237, 107, 71, 0.4);
-    
+
 }
 
 .type-text {
@@ -274,7 +284,7 @@ strong {
     font-size: 200px;
     color: #ED6B47;
     text-align: center;
-    }
+}
 
 .endo {
     font-size: 200px;
@@ -387,7 +397,7 @@ strong {
     font-weight: 300;
     font-size: 24px;
     color: #ED6B47;
-    background-color: rgba(67, 70, 75); 
+    background-color: rgba(67, 70, 75);
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: left;
@@ -405,7 +415,7 @@ strong {
     text-decoration: underline;
 }
 
-.planner-small:hover{
+.planner-small:hover {
     text-decoration: underline;
 }
 
@@ -430,12 +440,12 @@ tr {
 
 .img-cardio {
     height: 200px;
-    width: 181px;   
+    width: 181px;
 }
 
 .img-weights {
     height: 200px;
-    width: 181px;   
+    width: 181px;
 }
 
 .body-type-flex {
@@ -460,7 +470,7 @@ tr {
     color: rgba(67, 70, 75);
 }
 
-.foundation-icon-text{
+.foundation-icon-text {
     color: #ED6B47;
     font-size: 24px;
     text-transform: uppercase;
@@ -475,7 +485,7 @@ tr {
 .social-intro h2 {
     text-transform: uppercase;
     color: #ED6B47;
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 
 .mobile-social {
@@ -494,7 +504,7 @@ tr {
 .mobile-social p {
     color: #fafafa;
     font-family: teko;
-    
+
 }
 
 .social-intro p {
@@ -506,7 +516,7 @@ tr {
     padding-bottom: 25px;
 }
 
-.mobile-app > h4 {
+.mobile-app>h4 {
     text-align: center;
     font-family: "teko", sans-serif;
     font-weight: 300;
@@ -541,7 +551,7 @@ tr {
 }
 
 .form-background {
-    background-color: rgba(67, 70, 75,);
+    background-color: rgba(67, 70, 75, );
     margin-top: 0;
 }
 
@@ -588,7 +598,7 @@ label {
     text-align: left;
 }
 
-.gender-small > label {
+.gender-small>label {
     text-decoration: underline;
 }
 
@@ -605,7 +615,7 @@ label {
     margin-left: 30px;
 }
 
-.age { 
+.age {
     margin-top: 15px;
     font-family: teko, sans-serif;
     font-weight: 300;
@@ -632,7 +642,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .btn-primary:hover {
-    background-color:#ED6B47;
+    background-color: #ED6B47;
     color: #fafafa;
     border-color: #ED6B47;
 }
@@ -672,7 +682,7 @@ input[type=range]::-webkit-slider-thumb {
     padding-bottom: 50px;
 }
 
-.carousel-caption > h5 {
+.carousel-caption>h5 {
     color: #ED6B47;
     font-family: teko, sans-serif;
     font-weight: 500;
@@ -690,7 +700,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .resources {
-    background-color:#ED6B47;
+    background-color: #ED6B47;
 }
 
 .resources-header {
@@ -716,7 +726,7 @@ input[type=range]::-webkit-slider-thumb {
     text-align: center;
     flex: 1;
     background-color: rgba(67, 70, 75, .8);
-    color: #fafafa; 
+    color: #fafafa;
 }
 
 .links-container ol {
@@ -741,7 +751,7 @@ input[type=range]::-webkit-slider-thumb {
     height: 500px;
 }
 
-.links-image > img {
+.links-image>img {
     width: 100%;
     height: 100%;
 }
@@ -760,7 +770,7 @@ input[type=range]::-webkit-slider-thumb {
     position: relative;
 }
 
-.mobile-resources > img {
+.mobile-resources>img {
     width: 100%;
     height: 100%;
 }
@@ -811,7 +821,7 @@ input[type=range]::-webkit-slider-thumb {
     font-size: 24px;
 }
 
-.map-container > h2 {
+.map-container>h2 {
     font-family: teko, sans-serif;
     font-weight: 500;
     font-size: 24px;
@@ -820,23 +830,23 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .mobile-google-map {
-     padding-bottom: 50%;
-     position: relative;
+    padding-bottom: 50%;
+    position: relative;
 }
 
 .mobile-google-map iframe {
-     margin-top: 0;
+    margin-top: 0;
     height: 100%;
-     width: 100%;
-     left: 0;
-     top: 0;
-     position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
 }
 
 .google-map {
-     width: 100%;
-     height: 100%;
-     background-color: #43464b;
+    width: 100%;
+    height: 100%;
+    background-color: #43464b;
 }
 
 .google-map iframe {
@@ -850,17 +860,19 @@ input[type=range]::-webkit-slider-thumb {
     margin-top: 20px;
 }
 
+/* Media Queries For Responsive Design */
+
 @media (max-width: 800px) {
     .cover-intro {
         display: none;
     }
 }
- 
+
 @media (max-width: 600px) {
     .about-container {
         font-size: 24px;
     }
-    }
+}
 
 @media (min-width: 1200px) {
     .navbar-nav {
@@ -873,9 +885,11 @@ input[type=range]::-webkit-slider-thumb {
     .reasons-why {
         font-size: 18px;
     }
+
     .reasons-goals {
         font-size: 18px;
     }
+
     .reasons-hints {
         font-size: 18px;
     }
@@ -893,23 +907,25 @@ input[type=range]::-webkit-slider-thumb {
     }
 
 }
-@media (max-width: 360px) {   
-    .mobile-steps{
+
+@media (max-width: 360px) {
+    .mobile-steps {
         font-size: 18px;
     }
 }
 
-@media (max-width: 360px) {  
+@media (max-width: 360px) {
     .plan-table-small {
         font-size: 10px;
     }
 }
 
-@media (max-width: 360px) {  
+@media (max-width: 360px) {
     .title-text {
         font-size: 18px;
     }
 }
+
 @media (max-width: 760px) {
     .contact-form-md {
         padding: 0;
@@ -924,7 +940,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 @media (max-width: 920px) {
-    
+
     .carousel-item h5 {
         font-size: 18px;
     }
@@ -935,7 +951,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 @media (max-width: 360px) {
-    
+
     .carousel-item h5 {
         font-size: 12px;
     }
@@ -946,8 +962,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 @media (max-width: 961px) {
-    .links-container {
-    }
+    .links-container {}
 }
 
 @media (max-width: 541px) {
