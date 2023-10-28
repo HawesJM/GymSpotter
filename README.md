@@ -41,8 +41,12 @@
     
 13. **Final Notes**
 
+14. **Appendix**
+
 ### Introduction
 Gym Spotter is a web application designed to aid the individual user to develop and maintain a desired exercise routine in order to set and achieve specific fitness aims and life goals. To do this it aims to help users assess their body type, set realistic fitness targets with this in mind, and plan accordingly with the most efficient strategy and techniques for them. Gym Spotter also aims to support the user by introducing the concept of a community of individuals with shared goals, as sharing their progress within a likeminded peer group of individuals with similar time constrains or struggles helps build accountability and maintain motivation. Gym Spotter also aims to underpin this heightened knowledge and sharpened motivation by providing users with a wealth of tips and external resources to find the best workout regime for them. In so doing Gym Spotter aims to be a focal point of a conscientious and content fitness and lifestyle minded community that firstly offers advice and resources tailored to the individual, and secondly never loses sight of the sense fun and camaraderie offered by sports and exercise that keeps people engaged and motivated in their workouts.
+
+See Apendix for User Stories
 
 The concept was developed for the purpose of completing the first Milestone Project for the Code Institute's Full Stack Developer course. It was built to express the knowledge and skills gained from the HTML, CSS and User Centric Design modules.
 
@@ -195,4 +199,6 @@ It is my intention that GymSpotter becomes the initial part of a larger series o
 
 #### Final Notes
 The Partners section is purely for reference only and is not intended to indicate or suggest legitimate business links between the companies mentioned and GymSpotter, which is purely a fictional entity created for the purposes of this project under the course framework of DIWAD_MS1.
+#### Appendix
+
 
