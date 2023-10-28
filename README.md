@@ -201,5 +201,5 @@ It is my intention that GymSpotter becomes the initial part of a larger series o
 The Partners section is purely for reference only and is not intended to indicate or suggest legitimate business links between the companies mentioned and GymSpotter, which is purely a fictional entity created for the purposes of this project under the course framework of DIWAD_MS1.
 #### Appendix
 
-![alt text](workspaces/GymSpotter/assets/images/gym-spotter-user-stories.png)
+![alt text](assets/images/gym-spotter-user-stories.png)
 
