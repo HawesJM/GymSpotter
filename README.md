@@ -199,7 +199,41 @@ It is my intention that GymSpotter becomes the initial part of a larger series o
 
 #### Final Notes
 The Partners section is purely for reference only and is not intended to indicate or suggest legitimate business links between the companies mentioned and GymSpotter, which is purely a fictional entity created for the purposes of this project under the course framework of DIWAD_MS1.
-#### Appendix
+
+#### Appendix 1 - User Stories
 
 ![alt text](assets/images/gym-spotter-user-stories.png)
 
+#### Appendix 2 - Development Lifecycle
+
+![alt text](assets/images/life-cycle-diagram.png)
+
+##### Iteration 1, Homepage
+
+- Inception: the user is looking for a responsive website for information on how to start working out more effectively and with more support.
+- Task: the development team to create a landing page with the site's purpose, basic information and CTA button clearly visible, below the general navigation bar. Internal navigation links are all to be checked.
+- Increment: once responsiveness, accessibility and links (internal and external for social) are confirmed the initial homepage including navbar and CTA features are to be commited for deployment.
+
+##### Iteration 2, Plans and Goals
+
+- Inception: the user then uses the site to find more specific information related to their body type that they can use to inform themselves about and for their future workout, including an example schedule.
+- Task: the development team is to present this differing, specific information in a clear, accessible and responsive way. Images with sufficient resolution are to be used to resonate with the user and prompt progression to other site pages in the navigation bar.
+- Increment: once responsiveness, accessibility, links, image resolution, design contrast, and broad information relevance are all confirmed, the page is to be commited for deployment.
+
+##### Iteration 3, Contact and Social
+
+- Inception: the user, having found relevant information, is now looking for support through their fitness journey and will be interested to become part of a wider like-minded community, sharing their information and receiving validation from other users.
+- Task: the development team is to allow for this by creating a contact form for users to enter the details, supported by relevant testimonials from other users. Both are to be responsive allowing users to enhance their involvement with the web application on different devices.
+- Increment: once responsiveness for screen size as well as responsivity to relevant user input (including thank you page on submission) are confirmed, accessibility is to be assessed and then the page is to be committed for deployment.
+
+##### Iteration 4, Partners and External Resources
+
+- Inception: the user, having found relevant information, and having found a community of like-minded fitness enthusiasts, will want to explore other relevant information related to but not necessarily included in the scope of this application.
+- Task: the development team is to provide a brief, compelling and responsive framework for the user to explore said external resources in a manner consistent with the feel and expectations created by the application so far.
+- Increment: once responsiveness for screen size, particularly as it relates to image resolution (example use and indicative partners) and the Google Maps plugin frame, is confirmed and all internal and external links are checked the page is to be committed for deployment.
+
+##### Iteration 5, Maintenance and Future Releases
+
+- Inception: as the user relies on the application for relevant information, a like-minded community, and relevant external resources, the user will expect the site to be regularly updated to remain connected and relevant as their desires and goals change.
+- Task: the development team is to provide scope for the future implementation of new features including an email contact form for specific requests, responsive workout plan functionality, and a live map for relevant events.
+- Increment: the intention for maintenance and expansion is to be detailed by the development team in the web application documentation.
