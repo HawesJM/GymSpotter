@@ -174,7 +174,7 @@ Related images:
 Additionally, all pages were run through the W3C HTML Validator.
 ![alt text](testing/html-validator-index.html.png)
 
-Finally, all pages were run through the W3 CSS Validator.
+Finally, the css file was uploaded to and run through the W3 CSS Validator.
 ![alt text](testing/gym-spotter-css-validation-confirmation.png)
 
 ### Deployment
