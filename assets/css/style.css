@@ -198,7 +198,7 @@ ul {
     margin-left: 0;
     padding-left: 0;
     background-color: rgba(125, 249, 255, .7);
-    position: fixed bottom;
+    bottom: 0;
     animation: fadeIn 3s;
     animation-fill-mode: forwards;
     animation-delay: 30s;
@@ -521,7 +521,7 @@ tr {
     font-family: "teko", sans-serif;
     font-weight: 300;
     font-size: 18px;
-    margin-bottom: none;
+    margin: 0;
     color: #ED6B47;
 }
 
@@ -532,6 +532,12 @@ tr {
 
 .app-button-container img {
     width: 100%;
+}
+
+.form-label {
+    font-family: "teko", sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
 }
 
 .form-small {
@@ -551,7 +557,7 @@ tr {
 }
 
 .form-background {
-    background-color: rgba(67, 70, 75, );
+    background-color: rgba(67, 70, 75, 1);
     margin-top: 0;
 }
 
@@ -596,10 +602,12 @@ label {
     margin-top: 25px;
     margin-left: 10px;
     text-align: left;
+    font-size: 18px;
 }
 
-.gender-small>label {
+.gender-small>h3 {
     text-decoration: underline;
+    text-transform: uppercase;
 }
 
 .gender h3 {
@@ -634,7 +642,7 @@ input[type=range]::-webkit-slider-thumb {
 
 .btn-primary {
     font-size: 24px;
-    font-weight: 500px;
+    font-weight: 500;
     text-transform: uppercase;
     background-color: #43464b;
     border-color: #43464b;
@@ -654,7 +662,7 @@ input[type=range]::-webkit-slider-thumb {
 .submit-mobile {
     font-size: 18px;
     font-family: teko, sans-serif;
-    font-weight: 300px;
+    font-weight: 300;
     text-transform: uppercase;
     background-color: #43464b;
     border-color: #43464b;
@@ -696,7 +704,7 @@ input[type=range]::-webkit-slider-thumb {
     font-family: teko, sans-serif;
     font-weight: 500;
     font-size: 24px;
-    align-items: middle;
+    align-items: center;
 }
 
 .resources {
@@ -959,10 +967,6 @@ input[type=range]::-webkit-slider-thumb {
     .carousel-item P {
         font-size: 12px;
     }
-}
-
-@media (max-width: 961px) {
-    .links-container {}
 }
 
 @media (max-width: 541px) {

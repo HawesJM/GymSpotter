@@ -105,159 +105,148 @@
     </section>
 
     <!-- Inidcative images of three main body types -->
-    <section class="p2-section-two">
-        <div class="d-none d-xl-block">
-            <div class="row body-type-images">
-                <div class="col-lg-4"><img src=assets/images/pexels-julia-larson-6455840.jpg class="ecto-image"
-                        alt="ectomorph"></div>
-                <div class="col-lg-4"><img src=assets/images/pexels-ivan-samkov-4164849.jpg class="meso-image"
-                        alt="mesomorph"></div>
-                <div class="col-lg-4"><img src=assets/images/pexels-andres-ayrton-6551070.jpg class="endo-image"
-                        alt="endomorph"></div>
-            </div>
+    <div class="d-none d-xl-block p2-section-two">
+        <div class="row body-type-images">
+            <div class="col-lg-4"><img src=assets/images/pexels-julia-larson-6455840.jpg class="ecto-image"
+                    alt="ectomorph"></div>
+            <div class="col-lg-4"><img src=assets/images/pexels-ivan-samkov-4164849.jpg class="meso-image"
+                    alt="mesomorph"></div>
+            <div class="col-lg-4"><img src=assets/images/pexels-andres-ayrton-6551070.jpg class="endo-image"
+                    alt="endomorph"></div>
         </div>
+    </div>
 
-        <!-- Basic description of these body types and relevant workout plan outlines for each -->
-        <div class="d-none d-xl-block">
-            <div class="row body-type-plans">
-                <div class="col-lg-4">
-                    <p class="type-description">Naturally thin<br>
-                        Low body fat<br>
-                        Difficulty gaining weight/muscle</p>
-                    <p id="ecto-action">Low reps heavy weights with long rest periods<br>
-                        Low intensity occasional cardio<br>
-                        Balanced diet, high protein intake
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <p class="type-description">Broader shoulders<br>
-                        Medium to low body fat<br>
-                        Easily gains muscle/loses fat</p>
-                    <p id="meso-action">Medium-high intensity varied weight training<br>
-                        Isolation exercises and medium cardio<br>
-                        Balanced diet, meal plans for specific goals
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <p class="type-description">Narrow shoulders, wider hips<br>
-                        Stores more fat throughout<br>
-                        Gains weight easier</p>
-                    <p id="endo-action">Total body workouts for calorie burn<br>
-                        Regular low impact cardio<br>
-                        Low resistance high rep weight training
-                    </p>
-                </div>
+    <!-- Basic description of these body types and relevant workout plan outlines for each -->
+    <div class="d-none d-xl-block">
+        <div class="row body-type-plans">
+            <div class="col-lg-4">
+                <p class="type-description">Naturally thin<br>
+                    Low body fat<br>
+                    Difficulty gaining weight/muscle</p>
+                <p id="ecto-action">Low reps heavy weights with long rest periods<br>
+                    Low intensity occasional cardio<br>
+                    Balanced diet, high protein intake
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <p class="type-description">Broader shoulders<br>
+                    Medium to low body fat<br>
+                    Easily gains muscle/loses fat</p>
+                <p id="meso-action">Medium-high intensity varied weight training<br>
+                    Isolation exercises and medium cardio<br>
+                    Balanced diet, meal plans for specific goals
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <p class="type-description">Narrow shoulders, wider hips<br>
+                    Stores more fat throughout<br>
+                    Gains weight easier</p>
+                <p id="endo-action">Total body workouts for calorie burn<br>
+                    Regular low impact cardio<br>
+                    Low resistance high rep weight training
+                </p>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Responsive section for small screen sizes with image to convey message and scaled down schedule table -->
-    <section class="p2-section-three">
-        <div class="d-xl-none planner-small">
-            <h3 class="planner-small-header">
-                Weekly Workout Planner
-            </h3>
-            <img src=assets/images/pexels-mikhail-nilov-6740173.jpg class="d-xl-none img-fluid plan-board"
-                alt="Workout Planner Image">
-        </div>
-        <div>
-            <table class="d-lg-none table plan-table-small">
+
+    <div class="d-xl-none planner-small p2-section-three">
+        <h3 class="planner-small-header">
+            Weekly Workout Planner
+        </h3>
+        <img src=assets/images/pexels-mikhail-nilov-6740173.jpg class="d-xl-none img-fluid plan-board"
+            alt="Workout Planner Image">
+    </div>
+    <div>
+        <table class="d-lg-none table plan-table-small">
+            <thead>
+                <tr>
+                    <th>Body Type</th>
+                    <th>Weight Training</th>
+                    <th>Cardio Training</th>
+                    <th>Rest Day</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="fa-solid fa-grip-lines-vertical plan-icon"></i></td>
+                    <td>Monday, Tuesday, Friday, Sunday</td>
+                    <td>Thursday, Sunday</td>
+                    <td>Wednesday, Saturday</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-play plan-icon plan-icon-meso"></i></td>
+                    <td>Monday, Tuesday, Friday, Saturday</td>
+                    <td>Thursday, Sunday</td>
+                    <td>Wednesday</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-regular fa-square plan-icon"></i></td>
+                    <td>Thursday, Saturday</td>
+                    <td>Tuesday, Wednesday, Sunday</td>
+                    <td>Monday, Friday</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Full workout table plan for each body type -->
+        <div class="d-none d-lg-block plan-table-med">
+            <div class="foundation-icon"><i class="fa-solid fa-trowel-bricks"></i>
+                <p class="foundation-icon-text">Building the foundations of your workout plan</p>
+            </div>
+            <table class="table">
                 <thead>
                     <tr>
-                        <th scope="col-3">Body Type</th>
-                        <th scope="col-3">Weight Training</th>
-                        <th scope="col-3">Cardio Training</th>
-                        <th scope="col-3">Rest Day</th>
+                        <th>Body Type</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                        <th>Sunday</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td scope="col-3"><i class="fa-solid fa-grip-lines-vertical plan-icon"></i></td>
-                        <td scope="col-3">Monday, Tuesday, Friday, Sunday</td>
-                        <td scope="col-3">Thursday, Sunday</td>
-                        <td scope="col-3">Wednesday, Saturday</td>
+                        <td><i class="fa-solid fa-grip-lines-vertical"></i></td>
+                        <td>Chest focused weight training</td>
+                        <td>Rest</td>
+                        <td>Back focused weight training</td>
+                        <td>Rest</td>
+                        <td>Seated rowing</td>
+                        <td>Rest</td>
+                        <td>Leg and arm focused weight training</td>
                     </tr>
                     <tr>
-                        <td scope="col-3"><i class="fa-solid fa-play plan-icon plan-icon-meso"></i></td>
-                        <td scope="col-3">Monday, Tuesday, Friday, Saturday</td>
-                        <td scope="col-3">Thursday, Sunday</td>
-                        <td scope="col-3">Wednesday</td>
-                    </tr>
+                        <td><i class="fa-solid fa-play table-large-play"></i></td>
+                        <td>Chest and arms weight training</td>
+                        <td>Rest</td>
+                        <td>Light rowing and running</td>
+                        <td>Chest and back weight training</td>
+                        <td>Rest</td>
+                        <td>Light running with sit-ups</td>
+                        <td>Chest and arms weight training</td>
                     <tr>
-                        <td scope="col-3"><i class="fa-regular fa-square plan-icon"></i></td>
-                        <td scope="col-3">Thursday, Saturday</td>
-                        <td scope="col-3">Tuesday, Wednesday, Sunday</td>
-                        <td scope="col-3">Monday, Friday</td>
+                        <td><i class="fa-regular fa-square"></i></td>
+                        <td>Seated rowing, leg curls</td>
+                        <td>Rest</td>
+                        <td>Running, arm focused weight training</td>
+                        <td>Seated rowing</td>
+                        <td>Rest</td>
+                        <td>Seated rowing</td>
+                        <td>Light running</td>
                     </tr>
                 </tbody>
             </table>
+        </div>
 
-            <!-- Full workout table plan for each body type -->
-            <div class="d-none d-lg-block plan-table-med">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col">Body Type</th>
-                            <th scope="col">Monday</th>
-                            <th scope="col">Tuesday</th>
-                            <th scope="col">Wednesday</th>
-                            <th scope="col">Thursday</th>
-                            <th scope="col">Friday</th>
-                            <th scope="col">Saturday</th>
-                            <th scope="col">Sunday</th>
-                        </tr>
-                    </thead>
-                    <tbody class="d-none d-lg-flex justify-content-center flex-column align-items-center">
-                        <tr class="row foundation-icon-tr">
-                        <tr class="foundation-icon"><i class="fa-solid fa-trowel-bricks"></i>
-                            <span class="sr-only">Building your workout plan</span>
-                        </tr>
-                        </tr>
-                        <tr class="row">
-                            <p class="foundation-icon-text">Building the foundations of your workout plan</p>
-                        </tr>
-                    </tbody>
-                    <hr>
-                    <tbody>
-                        <tr>
-                            <td scope="row"><i class="fa-solid fa-grip-lines-vertical"></i></th>
-                            <td scope="col">Chest focused weight training</td>
-                            <td scope="col">Rest</td>
-                            <td scope="col">Back focused weight training</td>
-                            <td scope="col">Rest</td>
-                            <td scope="col">Seated rowing</td>
-                            <td scope="col">Rest</td>
-                            <td scope="col">Leg and arm focused weight training</td>
-                        </tr>
-                        <tr>
-                            <td scope="row"><i class="fa-solid fa-play table-large-play"></i></th>
-                            <td scope="col">Chest and arms weight training</td>
-                            <td scope="col">Rest</td>
-                            <td scope="col">Light rowing and running</td>
-                            <td scope="col">Chest and back weight training</td>
-                            <td scope="col">Rest</td>
-                            <td scope="col">Light running with sit-ups</td>
-                            <td scope="col">Chest and arms weight training</td>
-                        <tr>
-                            <td scope="row"><i class="fa-regular fa-square"></i></th>
-                            <td scope="col">Seated rowing, leg curls</td>
-                            <td scope="col">Rest</td>
-                            <td scope="col">Running, arm focused weight training</td>
-                            <td scope="col">Seated rowing</td>
-                            <td scope="col">Rest</td>
-                            <td scope="col">Seated rowing</td>
-                            <td scope="col">Light running</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-    </section>
-
-    <!-- Mobile relevant call to action with links -->
-    <section class="d-lg-none mobile-app">
-        <h4>
-            Why Not Download Our Mobile App For More Plans On The Go?
-            </h2>
+        <!-- Mobile relevant call to action with links -->
+        <section class="d-lg-none mobile-app">
+            <h4>
+                Why Not Download Our Mobile App For More Plans On The Go?
+            </h4>
             <div class="flex app-button-container">
                 <div class="google-mobile">
                     <img src="assets/images/google-play-button.jpg" alt="Google Play Button">
@@ -266,40 +255,42 @@
                     <img src="assets/images/apple-store-button.jpg" alt="Apple Store Button">
                 </div>
             </div>
-    </section>
-    <div class="container-fluid ticker">
-        <p class="ticker-text"> Pro tip - don't forget to stay hydrated at all times!
-        </p>
-    </div>
-    <footer>
-        <div class="text-center text-white social-footer">
-            <div class="container pt-3">
-                <section class="mb-3">
-                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" aria-label="Facebook Link"
-                        href="https://www.facebook.com/" target="_blank" role="button" data-mdb-ripple-color="dark"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" aria-label="Twitter Link"
-                        href="https://twitter.com/" target="_href" role="button" data-mdb-ripple-color="dark"><i
-                            class="fab fa-twitter"></i></a>
-                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" aria-label="Instagram Link"
-                        href="https://www.instagram.com/" target="_blank" role="button" data-mdb-ripple-color="dark"><i
-                            class="fab fa-instagram"></i></a>
-            </div>
-            </section>
-            <div class="text-center text-dark p-3 copy-div">
-                © 2023 Copyright:
-                <a class="text-dark" href="index.html">Gym Spotter</a>
-            </div>
+        </section>
+        <div class="container-fluid ticker">
+            <p class="ticker-text"> Pro tip - don't forget to stay hydrated at all times!
+            </p>
+        </div>
+        <footer>
+            <div class="text-center text-white social-footer">
+                <div class="container pt-3">
+                    <div class="mb-3">
+                        <a class="btn btn-link btn-floating btn-lg text-dark m-1" aria-label="Facebook Link"
+                            href="https://www.facebook.com/" target="_blank" role="button"
+                            data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-link btn-floating btn-lg text-dark m-1" aria-label="Twitter Link"
+                            href="https://twitter.com/" target="_blank" role="button" data-mdb-ripple-color="dark"><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-link btn-floating btn-lg text-dark m-1" aria-label="Instagram Link"
+                            href="https://www.instagram.com/" target="_blank" role="button"
+                            data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="text-center text-dark p-3 copy-div">
+                        © 2023 Copyright:
+                        <a class="text-dark" href="index.html">Gym Spotter</a>
+                    </div>
 
-            <div class="footer-logo">
-                <a class="navbar-brand navbar-logo" href="index.html">
-                    <img src="assets/images/gym-spotter-logo.jpg" alt="Gym Spotter Logo">
-                </a>
+                    <div class="footer-logo">
+                        <a class="navbar-brand navbar-logo" href="index.html">
+                            <img src="assets/images/gym-spotter-logo.jpg" alt="Gym Spotter Logo">
+                        </a>
+                    </div>
+                </div>
             </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"
-        integrity="sha512-3dZ9wIrMMij8rOH7X3kLfXAzwtcHpuYpEgQg1OA4QAob1e81H8ntUQmQm3pBudqIoySO5j0tHN4ENzA6+n2r4w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"
+            integrity="sha512-3dZ9wIrMMij8rOH7X3kLfXAzwtcHpuYpEgQg1OA4QAob1e81H8ntUQmQm3pBudqIoySO5j0tHN4ENzA6+n2r4w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </div>
 </body>
 
 </html>

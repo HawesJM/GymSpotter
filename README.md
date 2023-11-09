@@ -27,7 +27,7 @@
 * Strategy
 * Initial Bugs
 * Testing Methodology
-* Testing Report
+* Testing Reports
   
 8. **Deployment**
    
@@ -173,6 +173,9 @@ Related images:
 
 Additionally, all pages were run through the W3C HTML Validator.
 ![alt text](testing/html-validator-index.html.png)
+
+Finally, all pages were run through the W3 CSS Validator.
+![alt text](testing/gym-spotter-css-validation-confirmation.png)
 
 ### Deployment
 Deployed to GitHub pages via "Main" branch using the "pages build and deployment" workflow.

@@ -91,7 +91,7 @@
                             </div>
                         </div>
                         <div class="row gender-small g-0">
-                            <label for="gender-small">Gender</label>
+                            <h3 class="gender-small">Gender</h3>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="male-mobile"
                                     value="male">
@@ -118,9 +118,8 @@
                         <div class="form-submit-mobile">
                             <button type="submit" class="btn btn-primary submit-mobile">Submit and Signup</button>
                         </div>
+                    </form>
                 </div>
-                </form>
-            </div>
             </div>
 
             <!-- Desktop contact form includes link to separate thank you page after submission -->
@@ -130,7 +129,7 @@
                         <div class="row">
                             <div class="form-group col-sm-6">
                                 <label for="inputname">Name</label>
-                                <input type="name" class="form-control" id="inputname" placeholder="e.g. Donald Pump">
+                                <input type="text" class="form-control" id="inputname" placeholder="e.g. Donald Pump">
                             </div>
                             <div class="form-group col-sm-6">
                                 <label for="inputemail">Email</label>
@@ -159,9 +158,9 @@
                             </div>
                             <div class="row age">
                                 <label for="age" class="form-label">
-                                    <h3>Age</h3>
+                                    Age
                                 </label>
-                                <input type="range" id="age" class="form-range" min="18" max="65" id="age"
+                                <input type="range" id="age" class="form-range" min="18" max="65"
                                     oninput="rangevalue.innerText = this.value">
                                 <p id="rangevalue"></p>
                             </div>
@@ -169,8 +168,8 @@
                                 <button type="submit" class="btn btn-primary">Submit and Signup</button>
                             </div>
                         </div>
+                    </form>
                 </div>
-
             </div>
         </section>
 
@@ -237,19 +236,17 @@
     <!-- Footer including logo and external social media links same across all pages -->
     <footer>
         <div class="text-center text-white social-footer">
-            <div class="container pt-3">
-                <section class="mb-3">
-                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" aria-label="Facebook Link"
-                        href="https://www.facebook.com/" target="_blank" role="button" data-mdb-ripple-color="dark"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" aria-label="Twitter Link"
-                        href="https://twitter.com/" target="_href" role="button" data-mdb-ripple-color="dark"><i
-                            class="fab fa-twitter"></i></a>
-                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" aria-label="Instagram Link"
-                        href="https://www.instagram.com/" target="_blank" role="button" data-mdb-ripple-color="dark"><i
-                            class="fab fa-instagram"></i></a>
+            <div class="container pt-3 mb-3">
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" aria-label="Facebook Link"
+                    href="https://www.facebook.com/" target="_blank" role="button" data-mdb-ripple-color="dark"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" aria-label="Twitter Link"
+                    href="https://twitter.com/" target="_blank" role="button" data-mdb-ripple-color="dark"><i
+                        class="fab fa-twitter"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" aria-label="Instagram Link"
+                    href="https://www.instagram.com/" target="_blank" role="button" data-mdb-ripple-color="dark"><i
+                        class="fab fa-instagram"></i></a>
             </div>
-            </section>
             <div class="text-center text-dark p-3 copy-div">
                 © 2023 Copyright:
                 <a class="text-dark" href="index.html">Gym Spotter</a>
@@ -260,6 +257,7 @@
                     <img src="assets/images/gym-spotter-logo.jpg" alt="Gym Spotter Logo">
                 </a>
             </div>
+        </div>
     </footer>
 
     <!-- Scripts -->
