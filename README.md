@@ -67,7 +67,7 @@ Across all devices and screen sizes the layout will remain clean and the flow of
 
 ### Design
 ##### Colour Scheme
-The main background colour is Grey ![alt text] (assets/images/43464b.jpg), with a darker shade for certain areas of focus or calls to action. This aims to echo the industrial colour scheme popular with a lot of urban gyms. The main accent colour is Orange ![alt text] (assets/images/ed6b47.jpg) which provides excellent contrast and elevates the Grey tones with an energetic, modern feel. Occasionally a light Blue is used to further this.
+The main background colour is Grey ![alt text] (assets/images/grey-colour-thumb.jpg), with a darker shade for certain areas of focus or calls to action. This aims to echo the industrial colour scheme popular with a lot of urban gyms. The main accent colour is Orange ![alt text] (assets/images/orange-colour-thumb.jpg) which provides excellent contrast and elevates the Grey tones with an energetic, modern feel. Occasionally a light Blue is used to further this.
 ##### Typography
 The main font used is Teko to enhance the modern industrial feel of the website with provision for using Roboto when this is necessary for further clarity.
 ##### Imagery
